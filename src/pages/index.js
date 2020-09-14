@@ -19,11 +19,7 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2>
+            <h2>Natur im Garten</h2>
           </header>
           <p>
             Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
