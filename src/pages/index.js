@@ -102,7 +102,9 @@ const HomeIndex = () => {
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">thieme.garten@outlook.com</a>
+                  <a href="mailto:thieme.garten@outlook.com">
+                    thieme.garten@outlook.com
+                  </a>
                 </li>
               </ul>
             </div>
