@@ -75,7 +75,7 @@ const HomeIndex = () => {
                     <textarea
                       name="message"
                       id="message"
-                      placeholder="Message"
+                      placeholder="Nachricht"
                       rows="4"
                     ></textarea>
                   </div>
