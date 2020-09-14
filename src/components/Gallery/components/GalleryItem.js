@@ -19,7 +19,7 @@ const GalleryItem = ({
   )
 
   return (
-    <article key={id} className="6u 12u$(xsmall) work-item">
+    <article className="6u 12u$(xsmall) work-item">
       <a className="image fit thumb" href={source} onClick={onClick}>
         <img src={thumbnail} alt="" />
       </a>

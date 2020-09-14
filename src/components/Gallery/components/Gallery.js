@@ -28,8 +28,9 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
                 thumbnail={obj.thumbnail}
                 caption={obj.caption}
                 description={obj.description}
-                position={i}
+                position={obj.id}
                 toggleLightbox={toggleLightbox}
+                key={obj.id}
               />
             )
           })}
