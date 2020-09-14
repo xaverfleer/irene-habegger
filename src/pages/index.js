@@ -29,13 +29,6 @@ const HomeIndex = () => {
             Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
             lorem neque cubilia.
           </p>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
         </section>
 
         <section id="two">
