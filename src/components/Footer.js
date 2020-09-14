@@ -26,7 +26,9 @@ const Footer = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Xaver Fleer</li>
+        <li>
+          &copy; <a href="mailto:xaver.fleer@gmail.com">Xaver Fleer</a>
+        </li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
