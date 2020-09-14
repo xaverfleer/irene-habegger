@@ -6,3 +6,5 @@
   - domain-wahl: gartenbau-unterhalt.ch (Vorschlag), gartenbau-thieme.ch , gartenbau-zh (Umleiten auf gartenbau-unterhalt)
   - add link to 404 page
   - Korrekte Adresse
+  - add to Google, Bing and DuckDuckGo
+  - add analytics
