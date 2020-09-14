@@ -96,7 +96,7 @@ const HomeIndex = () => {
                   <h3 className="icon fa-mobile">
                     <span className="label">Telefon</span>
                   </h3>
-                  +41 76 439 97 88
+                  <a href="tel:+4176439978">+41 76 439 97 88</a>
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
