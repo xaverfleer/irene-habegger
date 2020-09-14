@@ -1530,20 +1530,6 @@ body.is-touch {
       }
     }
   }
-
-  /* Footer */
-
-  #footer {
-    .copyright {
-      li {
-        border-left-width: 0;
-        display: block;
-        line-height: 2.25em;
-        margin-left: 0;
-        padding-left: 0;
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 480px) {
