@@ -39,7 +39,7 @@ const HomeIndex = () => {
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Jüngste Arbeiten</h2>
 
           <Gallery />
 
@@ -53,7 +53,7 @@ const HomeIndex = () => {
         </section>
 
         <section id="three">
-          <h2>Get In Touch</h2>
+          <h2>Kontakt</h2>
           <p>
             Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
             magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
@@ -101,23 +101,23 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  Meine Strasse 42
                   <br />
-                  Nashville, TN 00000
+                  8004 Zürich
                   <br />
-                  United States
+                  Schweiz
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
+                    <span className="label">Telefon</span>
                   </h3>
-                  000-000-0000
+                  +41 76 439 97 88
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="#">thieme.garten@outlook.com</a>
                 </li>
               </ul>
             </div>
