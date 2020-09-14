@@ -1,0 +1,8 @@
+- Section über mich
+- Make emails work
+- create list of what's needed
+  - kurzer text über mich
+  - Fotos
+  - domain-wahl: gartenbau-unterhalt.ch (Vorschlag), gartenbau-thieme.ch , gartenbau-zh (Umleiten auf gartenbau-unterhalt)
+  - add link to 404 page
+  - Korrekte Adresse
