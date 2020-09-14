@@ -10,7 +10,7 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>Ich bin Valentin Thiele</strong>, Gartenbauer mit Sinn für
+        <strong>Ich bin Valentin Thieme</strong>, Gartenbauer mit Sinn für
         Natürlichkeit
       </h1>
     </div>
