@@ -42,14 +42,6 @@ const HomeIndex = () => {
           <h2>Jüngste Arbeiten</h2>
 
           <Gallery />
-
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Portfolio
-              </a>
-            </li>
-          </ul>
         </section>
 
         <section id="three">
