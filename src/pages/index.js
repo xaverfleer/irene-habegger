@@ -46,7 +46,7 @@ const HomeIndex = () => {
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Ganzes Portfolio
+                Portfolio
               </a>
             </li>
           </ul>
