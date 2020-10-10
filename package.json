@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^2.20.12",
-    "gatsby-plugin-manifest": "^2.3.3",
-    "gatsby-plugin-offline": "^3.1.2",
-    "gatsby-plugin-react-helmet": "^3.2.1",
-    "gatsby-plugin-sass": "^2.2.1",
+    "gatsby": "^2.24.73",
+    "gatsby-plugin-manifest": "^2.4.34",
+    "gatsby-plugin-offline": "^3.2.31",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sass": "^2.3.16",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^2.0.2"
+    "prettier": "^2.1.2"
   },
   "repository": {
     "type": "git",
