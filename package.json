@@ -6,9 +6,11 @@
   "dependencies": {
     "gatsby": "^2.24.73",
     "gatsby-plugin-manifest": "^2.4.34",
+    "gatsby-plugin-netlify-cms": "^4.3.16",
     "gatsby-plugin-offline": "^3.2.31",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sass": "^2.3.16",
+    "netlify-cms-app": "^2.12.25",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

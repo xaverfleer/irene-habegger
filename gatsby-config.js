@@ -5,6 +5,7 @@ module.exports = {
     description: 'A Gatsby.js Starter based on Strata by HTML5 UP',
   },
   plugins: [
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
