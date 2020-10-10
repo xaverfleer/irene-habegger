@@ -5,7 +5,17 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+site_url: https://confident-franklin-7bfe45.netlify.app
+
 collections:
+  - label: 'pages'
+    name: 'pages'
+    files:
+      - label: 'Landing Page'
+        name: 'index'
+        file: 'content/pages/index.md'
+        fields:
+          - { label: Title, name: title, widget: string }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
