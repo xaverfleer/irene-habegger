@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 
 const HomeIndex = ({ data }) => {
   const siteTitle = data.allMarkdownRemark.edges[0].node.frontmatter.title
+  const intro = data.allMarkdownRemark.edges[0].node.frontmatter.intro
   const siteDescription =
     'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen '
 
@@ -21,14 +22,7 @@ const HomeIndex = ({ data }) => {
           <header className="major">
             <h2>{siteTitle}</h2>
           </header>
-          <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
-          </p>
+          <p>{intro}</p>
         </section>
 
         <section id="two">
@@ -123,6 +117,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            intro
             title
           }
         }

@@ -16,6 +16,7 @@ collections:
         file: 'content/pages/index.md'
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: text }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
