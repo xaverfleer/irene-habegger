@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "landing-page-valentin-thieme",
+  "description": "Landing Page of Valentin Thieme",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Xaver Fleer",
   "dependencies": {
     "gatsby": "^2.24.73",
     "gatsby-plugin-manifest": "^2.4.34",
