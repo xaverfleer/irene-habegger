@@ -1,12 +1,25 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = ({ data }) => {
-  const siteTitle = data.allMarkdownRemark.edges[0].node.frontmatter.title
-  const intro = data.allMarkdownRemark.edges[0].node.frontmatter.intro
+  const { frontmatter } = data.allMarkdownRemark.edges[0].node
+  const siteTitle = frontmatter.title
+  const {
+    intro,
+    worksHeading,
+    contactHeading,
+    contactIntro,
+    address01,
+    address02,
+    address03,
+    phone,
+    email,
+  } = frontmatter
+
   const siteDescription =
     'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen '
 
@@ -26,18 +39,14 @@ const HomeIndex = ({ data }) => {
         </section>
 
         <section id="two">
-          <h2>Jüngste Arbeiten</h2>
+          <h2>{worksHeading}</h2>
 
           <Gallery />
         </section>
 
         <section id="three">
-          <h2>Kontakt</h2>
-          <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
-          </p>
+          <h2>{contactHeading}</h2>
+          <p>{contactIntro}</p>
           <div className="row">
             <div className="8u 12u$(small)">
               <form method="post" action="#">
@@ -48,6 +57,7 @@ const HomeIndex = ({ data }) => {
                       name="name"
                       id="name"
                       placeholder="Name"
+                      title="Name"
                     />
                   </div>
                   <div className="6u 12u$(xsmall)">
@@ -56,6 +66,7 @@ const HomeIndex = ({ data }) => {
                       name="email"
                       id="email"
                       placeholder="Email"
+                      title="Email"
                     />
                   </div>
                   <div className="12u">
@@ -63,6 +74,7 @@ const HomeIndex = ({ data }) => {
                       name="message"
                       id="message"
                       placeholder="Nachricht"
+                      title="Nachricht"
                       rows="4"
                     ></textarea>
                   </div>
@@ -78,27 +90,25 @@ const HomeIndex = ({ data }) => {
               <ul className="labeled-icons">
                 <li>
                   <h3 className="icon fa-home">
-                    <span className="label">Address</span>
+                    <span className="label">Addresse</span>
                   </h3>
-                  Meine Strasse 42
+                  {address01}
                   <br />
-                  8004 Zürich
+                  {address02}
                   <br />
-                  Schweiz
+                  {address03}
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Telefon</span>
                   </h3>
-                  <a href="tel:+4176439978">+41 76 439 97 88</a>
+                  <a href={`tel:${phone}`}>{phone}</a>
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="mailto:thieme.garten@outlook.com">
-                    thieme.garten@outlook.com
-                  </a>
+                  <a href={`mailto:${email}`}>{email}</a>
                 </li>
               </ul>
             </div>
@@ -119,6 +129,14 @@ export const pageQuery = graphql`
           frontmatter {
             intro
             title
+            worksHeading
+            contactHeading
+            contactIntro
+            address01
+            address02
+            address03
+            phone
+            email
           }
         }
       }
