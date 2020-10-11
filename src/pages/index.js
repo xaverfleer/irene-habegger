@@ -4,22 +4,22 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
-const HomeIndex = () => {
-  const siteTitle = 'Natur im Garten | Valentin Thieme'
+const HomeIndex = ({ data }) => {
+  const siteTitle = data.allMarkdownRemark.edges[0].node.frontmatter.title
   const siteDescription =
     'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen '
 
   return (
     <Layout>
       <Helmet>
-        <title>{siteTitle}</title>
+        <title>Natur im Garten | Valentin Thieme</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
 
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>Natur im Garten</h2>
+            <h2>{siteTitle}</h2>
           </header>
           <p>
             Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
@@ -116,3 +116,17 @@ const HomeIndex = () => {
 }
 
 export default HomeIndex
+
+export const pageQuery = graphql`
+  query indexMd {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+`
