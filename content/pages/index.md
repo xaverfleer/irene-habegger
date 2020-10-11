@@ -1,3 +1,3 @@
 ---
-title: Natur im Garten
+title: Natur im Garten!
 ---
