@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
 import Gallery from '../components/Gallery'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
   const { frontmatter } = data.allMarkdownRemark.edges[0].node
