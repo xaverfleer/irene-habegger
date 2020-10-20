@@ -8,7 +8,7 @@ public_folder: /img
 site_url: https://confident-franklin-7bfe45.netlify.app
 
 collections:
-  - label: 'pages'
+  - label: 'Pages'
     name: 'pages'
     files:
       - label: 'Landing Page'
@@ -17,6 +17,7 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
+          - { label: Image, name: image, widget: image }
           - { label: Works Heading, name: worksHeading, widget: string }
           - { label: Contact Heading, name: contactHeading, widget: string }
           - { label: Contact Intro, name: contactIntro, widget: text }
