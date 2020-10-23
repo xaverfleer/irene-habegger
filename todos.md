@@ -1,5 +1,8 @@
+- NetlifyCMS:
+  - Possibility to change background photos
+  - Possibility to change photos
+  - implement contact with email
 - Section über mich
-- Make emails work
 - create list of what's needed
   - kurzer text über mich
   - Fotos
