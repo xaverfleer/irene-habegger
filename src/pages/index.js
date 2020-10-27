@@ -9,6 +9,7 @@ const HomeIndex = ({ data }) => {
   const { frontmatter } = data.allMarkdownRemark.edges[0].node
   const siteTitle = frontmatter.title
   const {
+    bgImage,
     intro,
     worksHeading,
     contactHeading,
@@ -24,7 +25,7 @@ const HomeIndex = ({ data }) => {
     'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen '
 
   return (
-    <Layout>
+    <Layout bgImage={bgImage}>
       <Helmet>
         <title>Natur im Garten | Valentin Thieme</title>
         <meta name="description" content={siteDescription} />
@@ -127,6 +128,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            bgImage
             intro
             title
             worksHeading

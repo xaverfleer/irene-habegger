@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: static/img
+media_folder: content/img
 public_folder: /img
 
 site_url: https://confident-franklin-7bfe45.netlify.app
@@ -17,7 +17,7 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
-          - { label: Image, name: image, widget: image }
+          - { label: Background Image, name: bgImage, widget: image }
           - { label: Works Heading, name: worksHeading, widget: string }
           - { label: Contact Heading, name: contactHeading, widget: string }
           - { label: Contact Intro, name: contactIntro, widget: text }
