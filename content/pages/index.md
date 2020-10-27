@@ -9,7 +9,7 @@ intro: Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
   nunc nisi lorem vulputate lorem neque cubilia.
 contactHeading: Kontakt
 phoneLabel: Telefon
-bgImage: /img/avatar.jpg
+bgImage: /img/bg.jpg
 contactIntro: Accumsan pellentesque commodo blandit enim arcu non at amet id
   arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
   vulputate lorem neque lorem ipsum dolor.
