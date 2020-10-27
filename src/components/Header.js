@@ -1,15 +1,14 @@
 import React from 'react'
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
 
-const Header = ({ bgImage }) => (
+const Header = ({ bgImage, meImage }) => (
   <header
     id="header"
     style={{ backgroundImage: `url('images/overlay.png'), url(${bgImage})` }}
   >
     <div className="inner">
       <a href="/#" className="image avatar">
-        <img src={avatar} alt="" />
+        <img src={meImage} alt="" />
       </a>
       <h1>
         <strong>Ich bin Valentin Thieme</strong>, Gartenbauer mit Sinn für
