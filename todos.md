@@ -1,6 +1,8 @@
 - NetlifyCMS:
   - Possibility to change gallery photos
   - implement contact with email
+  - preprcess (background) images
+- Section mein Angebot
 - Section über mich
 - create list of what's needed
   - kurzer text über mich
