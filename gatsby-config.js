@@ -1,4 +1,15 @@
+const { createProxyMiddleware } = require('http-proxy-middleware')
+
 module.exports = {
+  developMiddleware: (app) => {
+    app.use(
+      '/.netlify/functions/',
+      createProxyMiddleware({
+        target: 'http://localhost:9000',
+        pathRewrite: { '/.netlify/functions/': '' },
+      })
+    )
+  },
   siteMetadata: {
     title: 'Natur im Garten | Valentin Thieme',
     author: 'Xaver Fleer',
