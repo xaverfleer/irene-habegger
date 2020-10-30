@@ -24,7 +24,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "run-p build:**",
+    "build:client": "gatsby build",
+    "build:lambda": "netlify-lambda build src/netlify-functions",
     "develop": "gatsby develop",
     "start": "run-p start:**",
     "start:app": "npm run develop",
