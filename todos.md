@@ -1,7 +1,7 @@
 - implement contact with email
-  - fix build folder for netlfify functions
+  - add success page
   - read email from index.md
-  - connect frontend to backend
+- add phone number to form field
 - NetlifyCMS:
   - Possibility to change gallery photos
   - preprcess (background) images
