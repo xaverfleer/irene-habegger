@@ -1,6 +1,9 @@
+- implement contact with email
+  - fix build folder for netlfify functions
+  - read email from index.md
+  - connect frontend to backend
 - NetlifyCMS:
   - Possibility to change gallery photos
-  - implement contact with email
   - preprcess (background) images
 - Section mein Angebot
 - Section über mich
