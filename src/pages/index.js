@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
+import ContactForm from '../components/ContactForm'
 import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 
@@ -51,42 +52,7 @@ const HomeIndex = ({ data }) => {
           <p>{contactIntro}</p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
-                <div className="row uniform 50%">
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                      title="Name"
-                    />
-                  </div>
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                      title="Email"
-                    />
-                  </div>
-                  <div className="12u">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Nachricht"
-                      title="Nachricht"
-                      rows="4"
-                    ></textarea>
-                  </div>
-                </div>
-                <ul className="actions" style={{ marginTop: 30 }}>
-                  <li>
-                    <input type="submit" value="Absenden" />
-                  </li>
-                </ul>
-              </form>
+              <ContactForm />
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
