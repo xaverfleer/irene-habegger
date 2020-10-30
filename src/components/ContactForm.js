@@ -1,4 +1,5 @@
 import React from 'react'
+import { navigate } from 'gatsby'
 
 const ContactForm = () => (
   <form onSubmit={handleSubmit}>
@@ -63,6 +64,7 @@ function handleError() {
 
 function handleSuccess(formElem) {
   formElem.reset()
+  navigate('/mail-sent/')
 }
 
 function handleSubmit(event) {
