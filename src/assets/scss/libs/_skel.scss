@@ -399,7 +399,7 @@ $vendor-values: (
     padding: ($r * $multiplier) 0 0 ($c * $multiplier);
   }
   .row#{$x} {
-    margin: ($r * $multiplier * -1) 0 -1px ($c * $multiplier * -1);
+    margin: ($r * $multiplier * -1) 0 0 ($c * $multiplier * -1);
   }
 
   // Uniform.
@@ -407,7 +407,7 @@ $vendor-values: (
     padding: ($c * $multiplier) 0 0 ($c * $multiplier);
   }
   .row.uniform#{$x} {
-    margin: ($c * $multiplier * -1) 0 -1px ($c * $multiplier * -1);
+    margin: ($c * $multiplier * -1) 0 0 ($c * $multiplier * -1);
   }
 }
 
