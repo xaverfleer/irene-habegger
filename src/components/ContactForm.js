@@ -1,58 +1,66 @@
 import React from 'react'
 import { navigate } from 'gatsby'
 
-const ContactForm = () => (
-  <form onSubmit={handleSubmit}>
-    <div className="row uniform 50%">
-      <div className="6u 12u$(xsmall)">
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Name"
-          required
-          title="Name"
-        />
+let recipient
+
+const ContactForm = ({ email }) => {
+  recipient = email
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div className="row uniform 50%">
+        <div className="6u 12u$(xsmall)">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+            title="Name"
+          />
+        </div>
+        <div className="6u 12u$(xsmall)">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+            title="Email"
+          />
+        </div>
+        <div className="12u">
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Nachricht"
+            title="Nachricht"
+            required
+            rows="4"
+          ></textarea>
+        </div>
       </div>
-      <div className="6u 12u$(xsmall)">
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email"
-          required
-          title="Email"
-        />
-      </div>
-      <div className="12u">
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Nachricht"
-          title="Nachricht"
-          required
-          rows="4"
-        ></textarea>
-      </div>
-    </div>
-    <ul className="actions" style={{ marginTop: 30 }}>
-      <li>
-        <input name="submit" type="submit" value="Absenden" />
-      </li>
-    </ul>
-  </form>
-)
+      <ul className="actions" style={{ marginTop: 30 }}>
+        <li>
+          <input name="submit" type="submit" value="Absenden" />
+        </li>
+      </ul>
+    </form>
+  )
+}
 
 function getFormData(formElem) {
   return [].slice
     .call(formElem, 0)
     .map(({ name, value }) => ({ name, value }))
     .filter(({ name }) => name !== 'submit')
-    .map(({ name, value }) => ({ [name]: value }))
+    .reduce((acc, { name, value }) => ({ ...acc, [name]: value }), {})
 }
 
 function getPayload(formElem) {
-  return JSON.stringify(getFormData(formElem))
+  const formData = getFormData(formElem)
+
+  return JSON.stringify({ formData, recipient })
 }
 
 function handleError() {

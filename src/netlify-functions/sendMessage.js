@@ -6,15 +6,15 @@ exports.handler = function absenden(event, context, callback) {
   logging.logStart('Start sendMessage')
   const respond = responding.responseHandlers(callback)
 
-  logging.log(`event.body: ${event.body}`)
+  const parsedBody = JSON.parse(event.body)
 
   const msg = {
-    to: 'xaver.fleer+thieme-gartenbau@gmail.com',
+    to: parsedBody.recipient,
     subject: 'Nachricht von Website gesendet',
-    text: event.body,
+    text: JSON.stringify(parsedBody.formData),
   }
-  logging.log('sending email')
 
+  logging.log('sending email')
   mailing
     .sendEmail(msg)
     .then(() => 'success')

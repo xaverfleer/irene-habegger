@@ -1,7 +1,4 @@
-- implement contact with email
-  - add success page
-  - read email from index.md
-- add phone number to form field
+- add phone number field to form
 - NetlifyCMS:
   - Possibility to change gallery photos
   - preprcess (background) images

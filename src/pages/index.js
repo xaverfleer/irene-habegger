@@ -52,7 +52,7 @@ const HomeIndex = ({ data }) => {
           <p>{contactIntro}</p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <ContactForm />
+              <ContactForm email={email} />
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
