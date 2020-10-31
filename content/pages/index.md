@@ -19,5 +19,5 @@ address02: 8004 Zürich
 address03: Schweiz
 phone: +41 76 439 97 88
 emailLabel: E-Mail
-email: thieme.garten@outlook.com
+email: xaver.fleer+thieme-garten@gmail.com
 ---
