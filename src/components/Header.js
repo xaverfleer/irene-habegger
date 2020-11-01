@@ -1,5 +1,7 @@
 import React from 'react'
+
 import Footer from './Footer'
+import Image from './Image'
 import overlay from '../assets/scss/images/overlay.png'
 
 const Header = ({ bgImage, meImage }) => (
@@ -9,7 +11,7 @@ const Header = ({ bgImage, meImage }) => (
   >
     <div className="inner">
       <a href="/#" className="image avatar">
-        <img src={meImage} alt="" />
+        <Image />
       </a>
       <h1>
         <strong>Ich bin Valentin Thieme</strong>, Gartenbauer mit Sinn für

@@ -17,9 +17,15 @@ module.exports = {
       'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen ',
   },
   plugins: [
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-source-filesystem`,
-      options: { name: `pages`, path: `${__dirname}/content/pages/` },
+      options: { name: `pages`, path: `${__dirname}/content/` },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `img`, path: `${__dirname}/static/img/` },
     },
     {
       resolve: `gatsby-plugin-manifest`,
