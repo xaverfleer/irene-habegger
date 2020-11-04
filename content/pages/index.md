@@ -15,8 +15,8 @@ contactHeading: Kontakt
 phoneLabel: Telefon
 contactIntro: Ich freue mich über Ihre Nachricht.
 addressLabel: Adresse
-address01: Le chandon 9
-address02: 1583 Villarepos
+address01: Ringoldingen 425
+address02: 3762 Erlenbach im Simmental
 address03: Schweiz
 phone: +41 79 385 95 71
 emailLabel: E-Mail
