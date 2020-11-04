@@ -14,8 +14,7 @@ const Header = ({ bgImage, meImage }) => (
         <Image />
       </a>
       <h1>
-        <strong>Ich bin Valentin Thieme</strong>, Gartenbauer mit Sinn für
-        Natürlichkeit
+        <strong>Ich bin Denis Peter</strong>, Permakultur ist meine Leidenschaft
       </h1>
     </div>
     <Footer />
