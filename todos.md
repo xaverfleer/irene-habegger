@@ -16,3 +16,9 @@
   - add analytics
 - preprocess (background) images
 - one unified component for fetching images
+
+# Mit Denis
+
+- cool: Facebook posts
+- 1 Sätzli: Was habe ich seit 2014 gelernt
+- persönlicher Hintergrund 1-2 Sätzli
