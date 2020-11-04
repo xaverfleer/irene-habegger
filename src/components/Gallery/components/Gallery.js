@@ -26,7 +26,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
         nodes {
           name
           childImageSharp {
-            fluid(maxWidth: 400) {
+            fluid(maxWidth: 400, maxHeight: 300) {
               ...GatsbyImageSharpFluid
             }
           }

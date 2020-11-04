@@ -1,45 +1,19 @@
 import full01 from '../../../../content/gallery/gallery-01.jpg'
 import full02 from '../../../../content/gallery/gallery-02.jpg'
-import full03 from '../../../../content/gallery/gallery-03.jpg'
-import full04 from '../../../../content/gallery/gallery-04.jpg'
-import full05 from '../../../../content/gallery/gallery-05.jpg'
-import full06 from '../../../../content/gallery/gallery-06.jpg'
 
 export const DEFAULT_IMAGES = [
   {
     id: '0',
     source: full01,
-    caption: 'Photo 1',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Böschung',
+    description:
+      'Ein kleines Projekt mit einigen Herausforderungen. Ein kleiner, steiler Hang, der sehr selten Wasser und so gut wie nie Sonne bekommt. Mit einem speziell angepassten Pflanzkonzept (und einem Kakteen Experiment), ist es möglich jedem Standort gerecht zu werden und mit etwas Kreativität, wird aus einem einfachen ungepflegten Hang ein interessanter Blickfang.',
   },
   {
     id: '1',
     source: full02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '2',
-    source: full03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '3',
-    source: full04,
-    caption: 'Photo 4',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '4',
-    source: full05,
-    caption: 'Photo 5',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '5',
-    source: full06,
-    caption: 'Photo 6',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Steinmauer',
+    description:
+      'Trockensteinmauern bieten Reptilien, Amphibien und Insekten einen Unterschlupf. Sie bieten  spezifischen Pflanzen eine Nische, um sich anzusiedeln und geben der Biodiversität eine Chance. In Frankreich, wo diese Mauern stehen, ist Stein ein sehr häufiger Rohstoff und ideal um ganze Bergflanken zu Terrassieren und bewirtschaftbar zu machen.',
   },
 ]
