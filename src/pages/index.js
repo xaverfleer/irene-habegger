@@ -13,6 +13,13 @@ const HomeIndex = ({ data }) => {
     bgImage,
     meImage,
     intro,
+    offerHeading,
+    offerTitle01,
+    offerTitle02,
+    offerTitle03,
+    offerText01,
+    offerText02,
+    offerText03,
     worksHeading,
     contactHeading,
     contactIntro,
@@ -34,20 +41,30 @@ const HomeIndex = ({ data }) => {
       </Helmet>
 
       <div id="main">
-        <section id="one">
+        <section>
           <header className="major">
             <h2>{siteTitle}</h2>
           </header>
           <p>{intro}</p>
         </section>
 
-        <section id="two">
+        <section>
+          <h2>{offerHeading}</h2>
+          <h3>{offerTitle01}</h3>
+          <p>{offerText01}</p>
+          <h3>{offerTitle02}</h3>
+          <p>{offerText02}</p>
+          <h3>{offerTitle03}</h3>
+          <p>{offerText03}</p>
+        </section>
+
+        <section>
           <h2>{worksHeading}</h2>
 
           <Gallery />
         </section>
 
-        <section id="three">
+        <section>
           <h2>{contactHeading}</h2>
           <p>{contactIntro}</p>
           <div className="row">
@@ -98,6 +115,13 @@ export const pageQuery = graphql`
           meImage
           intro
           title
+          offerHeading
+          offerTitle01
+          offerTitle02
+          offerTitle03
+          offerText01
+          offerText02
+          offerText03
           worksHeading
           contactHeading
           contactIntro

@@ -1,23 +1,24 @@
 ---
-worksHeading: Jüngste Arbeiten
-addressLabel: Adresse
-intro: Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
-  lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor
-  primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit
-  enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper
-  nunc nisi lorem vulputate lorem neque cubilia.
 bgImage: /img/bg.jpg
 meImage: /img/avatar.jpg
+title: Meine Person
+intro: Für mich ist Permakultur ein Planungskonzept, eine Philosophie und eine Chance für die Zukunft. Seit 2014 beschäftige ich mich intensiv mit den sehr weitreichenden Themen der Permakultur. Ich möchte meinen Kindern und Enkeln eine Welt hinterlassen, in der sie eine intakte Natur vorfinden und in einem gesunden Umfeld aufwachsen können. Deshalb setze ich mich für Permakultur ein.
+offerHeading: Mein Angebot
+offerTitle01: Beratung
+offerText01: Sie möchten Ihren Lebensraum verändern und hätten gerne ein wenig Inspiration? Gerne unterstütze ich Sie mit meinem Wissen bei Ihrer eigenen Planung und Umsetzung.
+offerTitle02: Planung
+offerText02: Sie möchten Ihren Lebensraum verändern und wissen aber nicht, wie Sie am besten vorgehen sollen? Egal ob Balkon oder Landwirtschaftsfläche, für Sie allein oder eine ganze Gemeinschaft, ich stehe Ihnen gerne mit meinem Wissen und Erfahrungen zur Seite um eine Oase der Vielfalt und ein Rückzugsort der Natur zu Planen.
+offerTitle03: Gestaltung
+offerText03: Sie möchten Ihren Lebensraum verändern und brauchen tatkräftige Hilfe? Mit meiner gesammelten Erfahrung in der Organisation und Gestaltung können wir gemeinsam fast jedes Projekt umsetzten und der Natur etwas zurückgeben.
+worksHeading: Jüngste Arbeiten
 contactHeading: Kontakt
 phoneLabel: Telefon
-title: Natur im Garten.
-contactIntro: Accumsan pellentesque commodo blandit enim arcu non at amet id
-  arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-  vulputate lorem neque lorem ipsum dolor.
-address01: Meine Strasse 42
-address02: 8004 Zürich
+contactIntro: Ich freue mich über Ihre Nachricht.
+addressLabel: Adresse
+address01: Le chandon 9
+address02: 1583 Villarepos
 address03: Schweiz
-phone: +41 76 439 97 88
+phone: +41 79 385 95 71
 emailLabel: E-Mail
-email: xaver.fleer+thieme-garten@gmail.com
+email: kontakt@permakultur-hand-werk.ch
 ---
