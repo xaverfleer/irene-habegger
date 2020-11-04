@@ -7,7 +7,7 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
-  const { frontmatter } = data.allMarkdownRemark.edges[0].node
+  const { frontmatter } = data.allMarkdownRemark.nodes[0]
   const siteTitle = frontmatter.title
   const {
     bgImage,
@@ -92,22 +92,20 @@ export default HomeIndex
 export const pageQuery = graphql`
   query indexMd {
     allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            bgImage
-            meImage
-            intro
-            title
-            worksHeading
-            contactHeading
-            contactIntro
-            address01
-            address02
-            address03
-            phone
-            email
-          }
+      nodes {
+        frontmatter {
+          bgImage
+          meImage
+          intro
+          title
+          worksHeading
+          contactHeading
+          contactIntro
+          address01
+          address02
+          address03
+          phone
+          email
         }
       }
     }
