@@ -1,7 +1,8 @@
-- add phone number field to form
 - NetlifyCMS:
   - Possibility to change gallery photos
-  - preprcess (background) images
+- add form fields
+  - phone number
+  - subject
 - Section mein Angebot
 - Section über mich
 - create list of what's needed
@@ -12,3 +13,5 @@
   - Korrekte Adresse
   - add to Google, Bing and DuckDuckGo
   - add analytics
+- preprocess (background) images
+- one unified component for fetching images
