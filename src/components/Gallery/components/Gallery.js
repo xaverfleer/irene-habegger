@@ -1,3 +1,4 @@
+import { graphql, useStaticQuery } from 'gatsby'
 import React, { useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import Carousel, { Modal, ModalGateway } from 'react-images'
@@ -16,6 +17,24 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
     [lightboxIsOpen]
   )
 
+  const data = useStaticQuery(graphql`
+    query {
+      allFile(
+        filter: { sourceInstanceName: { eq: "gallery" } }
+        sort: { order: ASC, fields: name }
+      ) {
+        nodes {
+          name
+          childImageSharp {
+            fluid(maxWidth: 400) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <div>
       {images && (
@@ -23,9 +42,8 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           {images.map((obj, i) => {
             return (
               <GalleryItem
-                id={obj.id}
                 source={obj.source}
-                thumbnail={obj.thumbnail}
+                thumbnail={data.allFile.nodes[i].childImageSharp.fluid}
                 caption={obj.caption}
                 description={obj.description}
                 position={obj.id}

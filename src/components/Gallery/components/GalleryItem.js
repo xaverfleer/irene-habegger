@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
+import Img from 'gatsby-image'
 
 const GalleryItem = ({
-  id,
   source,
   thumbnail,
   caption,
@@ -21,7 +21,7 @@ const GalleryItem = ({
   return (
     <article className="6u 12u$(xsmall) work-item">
       <a className="image fit thumb" href={source} onClick={onClick}>
-        <img src={thumbnail} alt="" />
+        <Img fluid={thumbnail} />
       </a>
 
       <h3>{caption}</h3>
@@ -32,7 +32,6 @@ const GalleryItem = ({
 
 GalleryItem.displayName = 'GalleryItem'
 GalleryItem.propTypes = {
-  id: PropTypes.string.isRequired,
   source: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
