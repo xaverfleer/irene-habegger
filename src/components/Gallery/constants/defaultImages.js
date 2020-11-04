@@ -1,9 +1,9 @@
-import full01 from '../../../assets/images/fulls/01.jpg'
-import full02 from '../../../assets/images/fulls/02.jpg'
-import full03 from '../../../assets/images/fulls/03.jpg'
-import full04 from '../../../assets/images/fulls/04.jpg'
-import full05 from '../../../assets/images/fulls/05.jpg'
-import full06 from '../../../assets/images/fulls/06.jpg'
+import full01 from '../../../../content/gallery/gallery-01.jpg'
+import full02 from '../../../../content/gallery/gallery-02.jpg'
+import full03 from '../../../../content/gallery/gallery-03.jpg'
+import full04 from '../../../../content/gallery/gallery-04.jpg'
+import full05 from '../../../../content/gallery/gallery-05.jpg'
+import full06 from '../../../../content/gallery/gallery-06.jpg'
 
 export const DEFAULT_IMAGES = [
   {
