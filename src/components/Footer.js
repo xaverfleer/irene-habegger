@@ -5,18 +5,13 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="/#" className="icon fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="/#" className="icon fa-github">
-            <span className="label">Github</span>
-          </a>
-        </li>
-        <li>
-          <a href="/#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
+          <a
+            className="icon fa-facebook"
+            href="https://www.facebook.com/Permakultur-Hand-Werk-119926523203357/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <span className="label">Facebook</span>
           </a>
         </li>
         <li>
