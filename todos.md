@@ -1,9 +1,27 @@
-- "View" -> "Ansehen"
-- NetlifyCMS:
-  - Possibility to change gallery photos
+- remove/fix social links
+- fix email
+- social links
 - add form fields
   - phone number
   - subject
+- fix all thieme.garten@outlook
+- add gallery items
+- increase text size in gallery
+- add favicon
+- SEO
+
+- Ideen von Denis Umntersteiten
+
+  - Angebot detailliert
+  - Bibliothek
+  - Netzwerk
+  - Projekte
+  - ev. Blog
+
+- NetlifyCMS:
+  - Possibility to change gallery
+    - content
+    - photos
 - Section mein Angebot
 - Section über mich
 - create list of what's needed
