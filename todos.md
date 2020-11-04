@@ -1,3 +1,4 @@
+- "View" -> "Ansehen"
 - NetlifyCMS:
   - Possibility to change gallery photos
 - add form fields
