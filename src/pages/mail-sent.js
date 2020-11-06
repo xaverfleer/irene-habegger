@@ -5,7 +5,11 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
-  const { frontmatter } = data.allMarkdownRemark.edges[0].node
+  const allNodes = data.allMarkdownRemark.nodes
+  const landingPageNode = allNodes.find(
+    (node) => node?.frontmatter?.templateKey === 'landingPage'
+  )
+  const { frontmatter } = landingPageNode
   const { bgImage, meImage } = frontmatter
 
   const siteDescription =
@@ -40,6 +44,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            templateKey
             bgImage
             meImage
           }
