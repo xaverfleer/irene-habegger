@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 
-const HomeIndex = ({ data }) => {
+const MailSent = ({ data }) => {
   const allNodes = data.allMarkdownRemark.nodes
   const landingPageNode = allNodes.find(
     (node) => node?.frontmatter?.templateKey === 'landingPage'
@@ -51,7 +51,6 @@ export const pageQuery = graphql`
         }
       }
     }
-  }
 `
 
-export default HomeIndex
+export default MailSent
