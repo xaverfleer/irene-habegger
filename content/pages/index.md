@@ -1,7 +1,7 @@
 ---
 templateKey: landingPage
-bgImage: /img/bg.jpg
-meImage: /img/avatar.jpg
+bgImage: ../img/bg.jpg
+meImage: ../img/avatar.jpg
 title: Über mich
 intro: Für mich ist Permakultur ein Planungskonzept, eine Philosophie und eine Chance für die Zukunft. Seit 2014 beschäftige ich mich intensiv mit den sehr weitreichenden Themen der Permakultur. Ich möchte meinen Kindern und Enkeln eine Welt hinterlassen, in der sie eine intakte Natur vorfinden und in einem gesunden Umfeld aufwachsen können. Deshalb setze ich mich für Permakultur ein.
 offerHeading: Angebot

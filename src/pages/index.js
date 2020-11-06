@@ -38,7 +38,10 @@ const HomeIndex = ({ data }) => {
     'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen '
 
   return (
-    <Layout bgImage={bgImage} meImage={meImage}>
+    <Layout
+      bgFluid={bgImage.childImageSharp.fluid}
+      meFixed={meImage.childImageSharp.fixed}
+    >
       <Helmet>
         <title>Natur im Garten | Valentin Thieme</title>
         <meta name="description" content={siteDescription} />
@@ -116,8 +119,20 @@ export const pageQuery = graphql`
       nodes {
         frontmatter {
           templateKey
-          bgImage
-          meImage
+          bgImage {
+            childImageSharp {
+              fluid(maxWidth: 1800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          meImage {
+            childImageSharp {
+              fixed(width: 200, height: 200) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
           intro
           title
           offerHeading

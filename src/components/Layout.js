@@ -3,9 +3,9 @@ import '../assets/scss/main.scss'
 
 import Header from './Header'
 
-const Template = ({ bgImage, children, meImage }) => (
+const Template = ({ bgFluid, children, meFixed }) => (
   <div>
-    <Header bgImage={bgImage} meImage={meImage} />
+    <Header bgFluid={bgFluid} meFixed={meFixed} />
     {children}
   </div>
 )

@@ -1,17 +1,17 @@
 import React from 'react'
+import Img from 'gatsby-image'
 
 import Footer from './Footer'
-import Image from './Image'
 import overlay from '../assets/scss/images/overlay.png'
 
-const Header = ({ bgImage, meImage }) => (
+const Header = ({ bgFluid, meFixed }) => (
   <header
     id="header"
-    style={{ backgroundImage: `url(${overlay}), url(${bgImage})` }}
+    style={{ backgroundImage: `url(${overlay}), url(${bgFluid.src})` }}
   >
     <div className="inner">
       <a href="/#" className="image avatar">
-        <Image />
+        <Img fixed={meFixed} />
       </a>
       <h1>
         <strong>Ich bin Denis Peter</strong>, Permakultur ist meine Leidenschaft
