@@ -1,3 +1,7 @@
+- check why steinmauer image is smaller than boeschung
+- Fix selection of correct markdown file
+- Add possibility to change projects on landing page
+- add site description to NetlifyCMS
 - remove/fix social links
 - fix email
 - social links
@@ -9,7 +13,7 @@
 - increase text size in gallery
 - add favicon
 - SEO
-
+  - update description
 - Ideen von Denis Umntersteiten
 
   - Angebot detailliert
