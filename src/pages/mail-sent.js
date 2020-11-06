@@ -41,16 +41,15 @@ const MailSent = ({ data }) => {
 export const pageQuery = graphql`
   query mailSent {
     allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            templateKey
-            bgImage
-            meImage
-          }
+      nodes {
+        frontmatter {
+          templateKey
+          bgImage
+          meImage
         }
       }
     }
+  }
 `
 
 export default MailSent
