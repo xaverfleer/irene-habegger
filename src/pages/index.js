@@ -7,7 +7,11 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
-  const { frontmatter } = data.allMarkdownRemark.nodes[0]
+  const allNodes = data.allMarkdownRemark.nodes
+  landingPageNode = allNodes.find(
+    (node) => node?.frontmatter?.templateKey === 'landingPage'
+  )
+  const { frontmatter } = landingPageNode
   const siteTitle = frontmatter.title
   const {
     bgImage,
@@ -111,6 +115,7 @@ export const pageQuery = graphql`
     allMarkdownRemark {
       nodes {
         frontmatter {
+          templateKey
           bgImage
           meImage
           intro

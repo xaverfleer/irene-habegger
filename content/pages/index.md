@@ -1,4 +1,5 @@
 ---
+templateKey: landingPage
 bgImage: /img/bg.jpg
 meImage: /img/avatar.jpg
 title: Über mich

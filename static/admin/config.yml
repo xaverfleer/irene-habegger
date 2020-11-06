@@ -15,6 +15,12 @@ collections:
         name: 'index'
         file: 'content/pages/index.md'
         fields:
+          - {
+              label: '',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'landingPage',
+            }
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - { label: Background Image, name: bgImage, widget: image }
