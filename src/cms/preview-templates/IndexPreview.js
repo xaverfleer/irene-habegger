@@ -5,7 +5,7 @@ export default ({ entry }) => {
 
   return HomeIndex({
     data: {
-      allMarkdownRemark: { edges: [{ node: { frontmatter: { ...data } } }] },
+      allMarkdownRemark: { nodes: [{ frontmatter: { ...data } }] },
     },
   })
 }
