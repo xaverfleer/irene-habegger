@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 
 const HomeIndex = ({ data }) => {
   const allNodes = data.allMarkdownRemark.nodes
-  landingPageNode = allNodes.find(
+  const landingPageNode = allNodes.find(
     (node) => node?.frontmatter?.templateKey === 'landingPage'
   )
   const { frontmatter } = landingPageNode
