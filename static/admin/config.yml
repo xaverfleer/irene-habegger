@@ -16,9 +16,9 @@ collections:
         file: 'content/pages/index.md'
         fields:
           - {
-              label: '',
+              label: 'Template key',
               name: 'templateKey',
-              widget: 'hidden',
+              widget: 'string',
               default: 'landingPage',
             }
           - { label: Title, name: title, widget: string }
