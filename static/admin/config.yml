@@ -5,7 +5,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-site_url: https://confident-franklin-7bfe45.netlify.app
+site_url: https://affectionate-ride-be4308.netlify.app/
 
 collections:
   - label: 'Pages'
