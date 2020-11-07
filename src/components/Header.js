@@ -7,7 +7,7 @@ import overlay from '../assets/scss/images/overlay.png'
 const Header = ({ bgFluid, meFixed }) => (
   <header
     id="header"
-    style={{ backgroundImage: `url(${overlay}), url(${bgFluid.src})` }}
+    style={{ backgroundImage: `url(${overlay}), url(${bgFluid?.src})` }}
   >
     <div className="inner">
       <a href="/#" className="image avatar">
