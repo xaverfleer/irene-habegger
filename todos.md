@@ -1,3 +1,5 @@
+- source images from correct location
+- remove all static images
 - check why steinmauer image is smaller than boeschung
 - Fix selection of correct markdown file
 - Add possibility to change projects on landing page
