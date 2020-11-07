@@ -21,15 +21,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: `gatsby-source-filesystem`,
-      options: { name: `gallery`, path: `${__dirname}/content/gallery/` },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
       options: { name: `pages`, path: `${__dirname}/content/pages` },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: { name: `imgOld`, path: `${__dirname}/content/img/` },
     },
     {
       resolve: `gatsby-source-filesystem`,
