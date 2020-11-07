@@ -494,6 +494,7 @@ input[type='radio'] {
 
   &.thumb {
     text-align: center;
+    cursor: pointer;
 
     &:after {
       @include vendor(
