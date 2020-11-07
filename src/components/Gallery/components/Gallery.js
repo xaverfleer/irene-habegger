@@ -1,11 +1,9 @@
-import { graphql, useStaticQuery } from 'gatsby'
 import React, { useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import GalleryItem from './GalleryItem'
-import { DEFAULT_IMAGES } from '../constants/defaultImages'
 
-const Gallery = ({ images = DEFAULT_IMAGES }) => {
+const Gallery = ({ works }) => {
   const [lightboxIsOpen, setLightboxIsOpen] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState(0)
 
@@ -17,38 +15,20 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
     [lightboxIsOpen]
   )
 
-  const data = useStaticQuery(graphql`
-    query {
-      allFile(
-        filter: { sourceInstanceName: { eq: "gallery" } }
-        sort: { order: ASC, fields: name }
-      ) {
-        nodes {
-          name
-          childImageSharp {
-            fluid(maxWidth: 400, maxHeight: 300) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <div>
-      {images && (
+      {works && (
         <div className="row">
-          {images.map((obj, i) => {
+          {works.map((work, i) => {
             return (
               <GalleryItem
-                source={obj.source}
-                thumbnail={data.allFile.nodes[i].childImageSharp.fluid}
-                caption={obj.caption}
-                description={obj.description}
-                position={obj.id}
+                source={work.fluidLarge.childImageSharp.fluid.src}
+                thumbnail={work.fluidThumb.childImageSharp.fluid}
+                caption={work.caption}
+                description={work.description}
+                position={i}
                 toggleLightbox={toggleLightbox}
-                key={obj.id}
+                key={i}
               />
             )
           })}
@@ -57,7 +37,13 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
       <ModalGateway>
         {lightboxIsOpen && (
           <Modal onClose={toggleLightbox}>
-            <Carousel currentIndex={selectedIndex} views={images} />
+            <Carousel
+              currentIndex={selectedIndex}
+              views={works.map((w, i) => ({
+                src: w.fluidLarge.childImageSharp.fluid.src,
+                id: i,
+              }))}
+            />
           </Modal>
         )}
       </ModalGateway>

@@ -25,6 +25,7 @@ const HomeIndex = ({ data }) => {
     offerText02,
     offerText03,
     worksHeading,
+    works,
     contactHeading,
     contactIntro,
     address01,
@@ -68,7 +69,7 @@ const HomeIndex = ({ data }) => {
         <section>
           <h2>{worksHeading}</h2>
 
-          <Gallery />
+          <Gallery works={works} />
         </section>
 
         <section>
@@ -143,6 +144,24 @@ export const pageQuery = graphql`
           offerText02
           offerText03
           worksHeading
+          works {
+            caption
+            description
+            fluidThumb: img {
+              childImageSharp {
+                fluid(maxWidth: 400, maxHeight: 300) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            fluidLarge: img {
+              childImageSharp {
+                fluid(maxWidth: 1800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
           contactHeading
           contactIntro
           address01

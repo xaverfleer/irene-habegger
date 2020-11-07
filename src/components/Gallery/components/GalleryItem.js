@@ -36,7 +36,7 @@ GalleryItem.propTypes = {
   thumbnail: PropTypes.object.isRequired,
   caption: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  position: PropTypes.string.isRequired,
+  position: PropTypes.number.isRequired,
   toggleLightbox: PropTypes.func.isRequired,
 }
 
