@@ -29,7 +29,11 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: { name: `img`, path: `${__dirname}/content/img/` },
+      options: { name: `imgOld`, path: `${__dirname}/content/img/` },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `img`, path: `${__dirname}/static/img/` },
     },
     {
       resolve: `gatsby-plugin-manifest`,
