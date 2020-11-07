@@ -3,7 +3,7 @@ backend:
   branch: main
 
 media_folder: static/img
-public_folder: ../img
+public_folder: ../../static/img
 
 site_url: https://affectionate-ride-be4308.netlify.app/
 
