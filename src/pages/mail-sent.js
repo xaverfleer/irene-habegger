@@ -42,7 +42,7 @@ const MailSent = ({ data }) => {
 }
 
 export const pageQuery = graphql`
-  query mailSent {
+  query {
     allMarkdownRemark {
       nodes {
         frontmatter {
