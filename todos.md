@@ -1,48 +1,35 @@
-- source images from correct location
-- remove all static images
-- check why steinmauer image is smaller than boeschung
-- Fix selection of correct markdown file
-- Add possibility to change projects on landing page
-- add site description to NetlifyCMS
-- remove/fix social links
-- fix email
-- social links
+# pre go-live
+
+- increase text size in gallery
+- clear Valentin Thieme from project
+- add favicon
+- SEO
+
+  - update description
+
+# post go-live
+
+- SEO
+  - add to Google, Bing and DuckDuckGo
+- read email from index.md, always
 - add form fields
   - phone number
   - subject
-- fix all thieme.garten@outlook
-- add gallery items
-- increase text size in gallery
-- add favicon
-- SEO
-  - update description
-- Ideen von Denis Umntersteiten
+- test: Add possibility to change projects on landing page
 
+# maybe someday
+
+- check why steinmauer image is smaller than boeschung
+- add analytics
+- preprocess (background) images
+- Ideen von Denis Untersteiten
   - Angebot detailliert
   - Bibliothek
   - Netzwerk
   - Projekte
   - ev. Blog
 
-- NetlifyCMS:
-  - Possibility to change gallery
-    - content
-    - photos
-- Section mein Angebot
-- Section über mich
-- create list of what's needed
-  - kurzer text über mich
-  - Fotos
-  - domain-wahl: gartenbau-unterhalt.ch (Vorschlag), gartenbau-thieme.ch , gartenbau-zh (Umleiten auf gartenbau-unterhalt)
-  - add link to 404 page
-  - Korrekte Adresse
-  - add to Google, Bing and DuckDuckGo
-  - add analytics
-- preprocess (background) images
-- one unified component for fetching images
+# Von Denis
 
-# Mit Denis
-
-- cool: Facebook posts
 - 1 Sätzli: Was habe ich seit 2014 gelernt
 - persönlicher Hintergrund 1-2 Sätzli
