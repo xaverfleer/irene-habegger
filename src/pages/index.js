@@ -44,7 +44,7 @@ const HomeIndex = ({ data }) => {
       meFixed={meImage.childImageSharp.fixed}
     >
       <Helmet>
-        <title>Natur im Garten | Valentin Thieme</title>
+        <title>Permakultur Bern | Denis Peter</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
 

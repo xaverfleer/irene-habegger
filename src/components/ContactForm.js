@@ -66,7 +66,7 @@ function getPayload(formElem) {
 function handleError() {
   // eslint-disable-next-line no-alert
   alert(
-    'Senden der Nachricht fehlgeschlagen.\nBitte versuchen Sie es später noch einmal oder kontaktieren Sie mich unter thieme.garten@outlook.com.'
+    'Senden der Nachricht fehlgeschlagen.\nBitte versuchen Sie es später noch einmal oder kontaktieren Sie mich unter kontakt@permakultur-hand-werk.ch.'
   )
 }
 

@@ -6,8 +6,8 @@ module.exports = {
   sendEmail(message) {
     const messageWithSender = {
       ...message,
-      bcc: 'xaver.fleer+valentin-thieme@gmail.com',
-      from: 'website@valentin-thieme.ch',
+      bcc: 'xaver.fleer+permakultur-bern@gmail.com',
+      from: 'webformular@permakultur-bern.ch',
     }
     return sgMail.send(messageWithSender)
   },

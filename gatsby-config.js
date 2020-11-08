@@ -11,10 +11,10 @@ module.exports = {
     )
   },
   siteMetadata: {
-    title: 'Natur im Garten | Valentin Thieme',
+    title: 'Permakultur Handwerk | Denis Peter',
     author: 'Xaver Fleer',
     description:
-      'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen ',
+      'Permakultur Bern | Beratung, Planung und Gestaltung von Permakultur-Projekten',
   },
   plugins: [
     'gatsby-transformer-sharp',

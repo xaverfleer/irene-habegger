@@ -12,8 +12,7 @@ const MailSent = ({ data }) => {
   const { frontmatter } = landingPageNode
   const { bgImage, meImage } = frontmatter
 
-  const siteDescription =
-    'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen '
+  const siteDescription = 'Nachricht gesendet. Vielen Dank für Ihre Nachricht.'
 
   return (
     <Layout
@@ -21,7 +20,7 @@ const MailSent = ({ data }) => {
       meFixed={meImage.childImageSharp.fixed}
     >
       <Helmet>
-        <title>Natur im Garten | Valentin Thieme</title>
+        <title>Permakultur Bern | Nachricht gesendet</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
 
