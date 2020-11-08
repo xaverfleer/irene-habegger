@@ -22,6 +22,7 @@ const MailSent = ({ data }) => {
       <Helmet>
         <title>Permakultur Bern | Nachricht gesendet</title>
         <meta name="description" content={siteDescription} />
+        <meta name="robots" content="noindex" />
       </Helmet>
 
       <div id="main">
