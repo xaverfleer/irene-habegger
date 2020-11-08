@@ -1,8 +1,5 @@
 # pre go-live
 
-- increase text size in gallery
-- clear Valentin Thieme from project
-- add favicon
 - SEO
 
   - update description
