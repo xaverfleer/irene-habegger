@@ -36,7 +36,7 @@ const HomeIndex = ({ data }) => {
   } = frontmatter
 
   const siteDescription =
-    'Naturnahe Gartenberatung | Gezielte Pflege und Unterhalt bestehender Gärten | Kleinere Umänderungen und Neubauten | Terrassen und Dachbepflanyungen '
+    'Permakultur Bern | Beratung, Planung und Umsetzung ihres Permakultur-Projeks'
 
   return (
     <Layout
