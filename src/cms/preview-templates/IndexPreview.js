@@ -1,6 +1,6 @@
 import HomeIndex from '../../pages/index'
 
-const absLink = (relLink) => relLink.split('../../static')[1]
+const absLink = (relLink) => (relLink ? relLink.split('../../static')[1] : '')
 
 export default ({ entry }) => {
   const data = entry.getIn(['data']).toJS()

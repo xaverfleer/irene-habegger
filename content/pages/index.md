@@ -19,18 +19,12 @@ works:
       wird aus einem einfachen ungepflegten Hang ein interessanter Blickfang.
   - img: ../../static/img/gallery-02.jpg
     caption: Steinmauer
-    description: Trockensteinmauern bieten Reptilien, Amphibien und Insekten einen
+    description:
+      Trockensteinmauern bieten Reptilien, Amphibien und Insekten einen
       Unterschlupf. Sie bieten  spezifischen Pflanzen eine Nische, um sich
       anzusiedeln und geben der Biodiversität eine Chance. In Frankreich, wo
       diese Mauern stehen, ist Stein ein sehr häufiger Rohstoff und ideal um
       ganze Bergflanken zu Terrassieren und bewirtschaftbar zu machen.
-  - img: ../../static/img/suzane-003.jpg
-    caption: Terrassierung
-    description: >-
-      Mit Palisaden kann auch eine Terrassierung erstellt werden. Durch das
-      Terrassieren wird aus einem
-
-      unhandlichen Hang ein kleiner Garten und Blickfang.
 contact:
   heading: Kontakt
   intro: Ich freue mich über Ihre Nachricht.
