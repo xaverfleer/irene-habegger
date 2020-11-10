@@ -15,28 +15,22 @@ collections:
         name: 'index'
         file: 'content/pages/index.md'
         fields:
-          - {
-              label: 'Template key',
-              name: 'templateKey',
-              widget: 'string',
-              default: 'landingPage',
-            }
+          - label: 'Template key'
+            name: 'templateKey'
+            widget: 'string'
+            default: 'landingPage'
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: text }
           - { label: Background Image, name: bgImage, widget: image }
           - { label: Me, name: meImage, widget: image }
           - { label: Works Heading, name: worksHeading, widget: string }
-          - {
-              label: Work Samples,
-              name: works,
-              widget: list,
-              fields:
-                [
-                  { label: Image, name: img, widget: image },
-                  { label: Caption, name: caption, widget: string },
-                  { label: Description, name: description, widget: text },
-                ],
-            }
+          - label: Work Samples
+            name: works
+            widget: list
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Description, name: description, widget: text }
           - { label: Contact Heading, name: contactHeading, widget: string }
           - { label: Contact Intro, name: contactIntro, widget: text }
           - { label: Address Line 1, name: address01, widget: string }
