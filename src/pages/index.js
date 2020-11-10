@@ -26,13 +26,7 @@ const HomeIndex = ({ data }) => {
     offerText03,
     worksHeading,
     works,
-    contactHeading,
-    contactIntro,
-    address01,
-    address02,
-    address03,
-    phone,
-    email,
+    contact,
   } = frontmatter
 
   const siteDescription =
@@ -73,35 +67,35 @@ const HomeIndex = ({ data }) => {
         </section>
 
         <section>
-          <h2>{contactHeading}</h2>
-          <p>{contactIntro}</p>
+          <h2>{contact.heading}</h2>
+          <p>{contact.intro}</p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <ContactForm email={email} />
+              <ContactForm email={contact.email} />
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
                   <h3 className="icon fa-home">
-                    <span className="label">Addresse</span>
+                    <span className="label">Adresse</span>
                   </h3>
-                  {address01}
+                  {contact.address01}
                   <br />
-                  {address02}
+                  {contact.address02}
                   <br />
-                  {address03}
+                  {contact.address03}
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Telefon</span>
                   </h3>
-                  <a href={`tel:${phone}`}>{phone}</a>
+                  <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
+                    <span className="label">E-Mail</span>
                   </h3>
-                  <a href={`mailto:${email}`}>{email}</a>
+                  <a href={`mailto:${contact.email}`}>{contact.email}</a>
                 </li>
               </ul>
             </div>
@@ -162,13 +156,15 @@ export const pageQuery = graphql`
               }
             }
           }
-          contactHeading
-          contactIntro
-          address01
-          address02
-          address03
-          phone
-          email
+          contact {
+            heading
+            intro
+            address01
+            address02
+            address03
+            phone
+            email
+          }
         }
       }
     }

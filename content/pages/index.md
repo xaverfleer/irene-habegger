@@ -19,14 +19,12 @@ works:
   - img: ../../static/img/gallery-02.jpg
     caption: Steinmauer
     description: Trockensteinmauern bieten Reptilien, Amphibien und Insekten einen Unterschlupf. Sie bieten  spezifischen Pflanzen eine Nische, um sich anzusiedeln und geben der Biodiversität eine Chance. In Frankreich, wo diese Mauern stehen, ist Stein ein sehr häufiger Rohstoff und ideal um ganze Bergflanken zu Terrassieren und bewirtschaftbar zu machen.
-contactHeading: Kontakt
-phoneLabel: Telefon
-contactIntro: Ich freue mich über Ihre Nachricht.
-addressLabel: Adresse
-address01: Ringoldingen 425
-address02: 3762 Erlenbach im Simmental
-address03: Schweiz
-phone: +41 79 385 95 71
-emailLabel: E-Mail
-email: kontakt@permakultur-hand-werk.ch
+contact:
+  heading: Kontakt
+  intro: Ich freue mich über Ihre Nachricht.
+  address01: Ringoldingen 425
+  address02: 3762 Erlenbach im Simmental
+  address03: Schweiz
+  phone: +41 79 385 95 71
+  email: kontakt@permakultur-hand-werk.ch
 ---

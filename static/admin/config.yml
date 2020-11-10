@@ -31,13 +31,17 @@ collections:
               - { label: Image, name: img, widget: image }
               - { label: Caption, name: caption, widget: string }
               - { label: Description, name: description, widget: text }
-          - { label: Contact Heading, name: contactHeading, widget: string }
-          - { label: Contact Intro, name: contactIntro, widget: text }
-          - { label: Address Line 1, name: address01, widget: string }
-          - { label: Address Line 2, name: address02, widget: string }
-          - { label: Address Line 3, name: address03, widget: string }
-          - { label: Phone, name: phone, widget: string }
-          - { label: E-Mail, name: email, widget: string }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Contact Heading, name: heading, widget: string }
+              - { label: Contact Intro, name: intro, widget: text }
+              - { label: Address Line 1, name: address01, widget: string }
+              - { label: Address Line 2, name: address02, widget: string }
+              - { label: Address Line 3, name: address03, widget: string }
+              - { label: Phone, name: phone, widget: string }
+              - { label: E-Mail, name: email, widget: string }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
