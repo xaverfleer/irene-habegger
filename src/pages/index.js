@@ -40,6 +40,10 @@ const HomeIndex = ({ data }) => {
       <Helmet>
         <title>Permakultur Bern | Denis Peter</title>
         <meta name="description" content={siteDescription} />
+        <meta
+          name="google-site-verification"
+          content="L-3nYk01wpOk0hG4eoV7mUXCLji3FNgcNbnxHJUe21w"
+        />
       </Helmet>
 
       <div id="main">
