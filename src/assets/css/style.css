@@ -24,7 +24,7 @@ body {
   max-width: 100%;
 }
 
-logo {
+.logo {
   font-size: 2rem;
   text-transform: lowercase;
 }
