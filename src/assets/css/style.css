@@ -19,6 +19,7 @@ body {
   color: #d95a88;
   font-size: 2rem;
   text-transform: lowercase;
+  text-decoration: none;
 }
 
 .nav__list {

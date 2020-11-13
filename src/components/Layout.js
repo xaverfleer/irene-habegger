@@ -1,10 +1,14 @@
-import React from 'react'
 import '../assets/css/style.css'
+
+import React from 'react'
+import { Link } from 'gatsby'
 
 const Layout = ({ children }) => (
   <div class="wrapper">
     <header class="header">
-      <div class="logo">Irene Habegger</div>
+      <Link to="/" class="logo">
+        Irene Habegger
+      </Link>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__entry">Paintings</li>
