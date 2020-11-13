@@ -12,8 +12,7 @@ const HomeIndex = () => {
         <title>Irene Habegger | Artist</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-
-      <main>Irene Habegger</main>
+      <img alt="Foto" class="img" src="img/foto.png" />
     </Layout>
   )
 }
