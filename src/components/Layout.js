@@ -6,16 +6,36 @@ import { Link } from 'gatsby'
 const Layout = ({ children }) => (
   <div class="wrapper">
     <header class="header">
-      <Link to="/" class="logo">
+      <Link to="/" class="link logo">
         Irene Habegger
       </Link>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__entry">Paintings</li>
-          <li class="nav__entry">Drawings</li>
-          <li class="nav__entry">Video</li>
-          <li class="nav__entry">Bio</li>
-          <li class="nav__entry">Contact</li>
+          <li class="nav__entry">
+            <Link class="link" to="/">
+              Paintings
+            </Link>
+          </li>
+          <li class="nav__entry">
+            <Link class="link" to="/">
+              Drawings
+            </Link>
+          </li>
+          <li class="nav__entry">
+            <Link class="link" to="/">
+              Video
+            </Link>
+          </li>
+          <li class="nav__entry">
+            <Link class="link" to="/">
+              Bio
+            </Link>
+          </li>
+          <li class="nav__entry">
+            <Link class="link" to="/">
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
