@@ -17,22 +17,22 @@ const Layout = ({ children }) => (
             </Link>
           </li>
           <li class="nav__entry">
-            <Link class="link" to="/">
+            <Link class="link" to="/paintings">
               Drawings
             </Link>
           </li>
           <li class="nav__entry">
-            <Link class="link" to="/">
-              Video
+            <Link class="link" to="/videos">
+              Videos
             </Link>
           </li>
           <li class="nav__entry">
-            <Link class="link" to="/">
+            <Link class="link" to="/bio">
               Bio
             </Link>
           </li>
           <li class="nav__entry">
-            <Link class="link" to="/">
+            <Link class="link" to="/contact">
               Contact
             </Link>
           </li>
