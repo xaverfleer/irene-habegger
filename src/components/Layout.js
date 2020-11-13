@@ -1,13 +1,6 @@
 import React from 'react'
-import '../assets/scss/main.scss'
+import '../assets/css/style.css'
 
-import Header from './Header'
-
-const Layout = ({ bgFluid, children, meFixed }) => (
-  <div>
-    <Header bgFluid={bgFluid} meFixed={meFixed} />
-    {children}
-  </div>
-)
+const Layout = ({ children }) => <div>{children}</div>
 
 export default Layout

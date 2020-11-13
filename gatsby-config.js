@@ -17,16 +17,6 @@ module.exports = {
       'Permakultur Bern | Beratung, Planung und Gestaltung von Permakultur-Projekten',
   },
   plugins: [
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: { name: `pages`, path: `${__dirname}/content/pages` },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: { name: `img`, path: `${__dirname}/static/img/` },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -41,11 +31,6 @@ module.exports = {
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: { modulePath: `${__dirname}/src/cms/cms.js` },
-    },
     'gatsby-plugin-offline',
-    'gatsby-transformer-remark',
   ],
 }

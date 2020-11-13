@@ -1,23 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 
 const NotFoundPage = ({ data }) => {
-  const allNodes = data.allMarkdownRemark.nodes
-  const landingPageNode = allNodes.find(
-    (node) => node?.frontmatter?.templateKey === 'landingPage'
-  )
-  const { frontmatter } = landingPageNode
-  const { bgImage, meImage } = frontmatter
-
   return (
-    <Layout
-      bgFluid={bgImage.childImageSharp.fluid}
-      meFixed={meImage.childImageSharp.fixed}
-    >
+    <Layout>
       <Helmet>
-        <title>Permakultur Bern | Seite nicht gefunden</title>
+        <title>Irene Habegger | Seite nicht gefunden</title>
         <meta name="description" content="Seite nicht gefunden" />
         <meta name="robots" content="noindex" />
       </Helmet>
@@ -33,31 +23,5 @@ const NotFoundPage = ({ data }) => {
     </Layout>
   )
 }
-
-export const pageQuery = graphql`
-  query {
-    allMarkdownRemark {
-      nodes {
-        frontmatter {
-          templateKey
-          bgImage {
-            childImageSharp {
-              fluid(maxWidth: 1800) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          meImage {
-            childImageSharp {
-              fixed(width: 200, height: 200) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`
 
 export default NotFoundPage

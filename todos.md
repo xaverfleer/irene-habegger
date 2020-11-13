@@ -1,3 +1,6 @@
+- update website-icon
+- move all Irene specific code to config.md
+
 # pre go-live
 
 - SEO
@@ -35,5 +38,4 @@
 
 - bibliothek
 - projekte
-- Angebot
-  -
+- ## Angebot
