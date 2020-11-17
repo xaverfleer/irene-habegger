@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const Layout = ({ children }) => (
   <div className="wrapper">
-    <header className="header">
+    <aside className="aside">
       <Link to="/" className="link logo">
         Irene HABEGGER
       </Link>
@@ -38,8 +38,7 @@ const Layout = ({ children }) => (
           </li>
         </ul>
       </nav>
-    </header>
-    <main>{children}</main>
+    </aside>
     <footer></footer>
   </div>
 )
