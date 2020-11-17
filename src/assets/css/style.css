@@ -57,12 +57,12 @@ body {
 
 .wrapper {
   display: grid;
+  justify-items: end;
   gap: 3em;
 }
 
 @media (min-width: 850px) {
   main {
-    flex: 1 1 600px;
     justify-self: start;
   }
 
