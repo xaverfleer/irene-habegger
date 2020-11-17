@@ -4,35 +4,35 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Layout = ({ children }) => (
-  <div class="wrapper">
-    <header class="header">
-      <Link to="/" class="link logo">
+  <div className="wrapper">
+    <header className="header">
+      <Link to="/" className="link logo">
         Irene Habegger
       </Link>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__entry">
-            <Link class="link" to="/paintings">
+      <nav className="nav">
+        <ul className="nav__list">
+          <li className="nav__entry">
+            <Link className="link" to="/paintings">
               Paintings
             </Link>
           </li>
-          <li class="nav__entry">
-            <Link class="link" to="/paintings">
+          <li className="nav__entry">
+            <Link className="link" to="/paintings">
               Drawings
             </Link>
           </li>
-          <li class="nav__entry">
-            <Link class="link" to="/videos">
+          <li className="nav__entry">
+            <Link className="link" to="/videos">
               Videos
             </Link>
           </li>
-          <li class="nav__entry">
-            <Link class="link" to="/bio">
+          <li className="nav__entry">
+            <Link className="link" to="/bio">
               Bio
             </Link>
           </li>
-          <li class="nav__entry">
-            <Link class="link" to="/contact">
+          <li className="nav__entry">
+            <Link className="link" to="/contact">
               Contact
             </Link>
           </li>
