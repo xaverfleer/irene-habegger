@@ -1,11 +1,23 @@
+# irene requested tasks
+
+- irene habegger -> Irene HABEGGER
+- font -> "check in facebook messenger"
+- make layout not break on desktop
+
+# from irene requested tasks
+
+- images
+- favicon
+
+# Xaver likes to do
+
 - open close menu
-- update website-icon
 - move all Irene specific code to config.md
 
 # pre go-live
 
+- update website-icon
 - SEO
-
   - update description
 
 # post go-live
