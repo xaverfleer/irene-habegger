@@ -49,7 +49,7 @@ body {
 
 .nav__entry {
   font-size: 1.25rem;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 .wrapper {
