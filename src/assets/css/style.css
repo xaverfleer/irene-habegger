@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sanchez');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
 a.link {
   color: inherit;
@@ -10,7 +10,7 @@ a.logo {
 }
 
 body {
-  font-family: Sanchez, sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 62.5%;
 }
 
