@@ -7,6 +7,7 @@
 
 # Xaver likes to do
 
+- improve page layout
 - open close menu
 - move all Irene specific code to config.md
 
