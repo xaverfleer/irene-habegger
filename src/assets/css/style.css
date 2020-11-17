@@ -56,8 +56,12 @@ body {
 }
 
 @media (min-width: 850px) {
+  main {
+    flex: 1 1 600px;
+  }
+
   .header {
-    margin-right: 2em;
+    flex: 1 1 100px;
   }
 
   .wrapper {
