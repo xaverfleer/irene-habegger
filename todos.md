@@ -7,12 +7,16 @@
 
 # Xaver likes to do
 
-- improve page layout
-- open close menu
+- add footer
 - move all Irene specific code to config.md
+- open close menu
 
 # pre go-live
 
+- add content
+  - bio
+  - artwork
+  - etc.
 - update website-icon
 - SEO
   - update description
