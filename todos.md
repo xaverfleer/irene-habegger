@@ -1,8 +1,6 @@
 # irene requested tasks
 
-- irene habegger -> Irene HABEGGER
 - font -> "check in facebook messenger"
-- make layout not break on desktop
 
 # from irene requested tasks
 
