@@ -41,14 +41,19 @@ body {
   margin-bottom: 0;
 }
 
+.imgs-group-2 img {
+  flex: 1 1 0;
+  max-width: 45%;
+}
+
 .imgs-group-3 img {
   flex: 1 1 0;
-  max-width: 30%;
+  max-width: calc(80% / 3);
 }
 
 .imgs-group-4 img {
   flex: 1 1 0;
-  max-width: 20%;
+  max-width: calc(70% / 4);
 }
 
 .logo {

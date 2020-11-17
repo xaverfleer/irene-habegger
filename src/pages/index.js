@@ -17,6 +17,14 @@ const HomeIndex = () => {
         <img alt="pared-02" className="img" src="img/pared-03.jpg" />
         <img alt="pared-03" className="img" src="img/pared-02.jpg" />
       </div>
+      <div className="imgs-group imgs-group-2">
+        <img alt="artwork" className="img" src="img/seleccion-Joel.jpg" />
+        <img alt="artwork" className="img" src="img/seleccion-02.jpg" />
+      </div>
+      <div className="imgs-group imgs-group-2">
+        <img alt="artwork" className="img" src="img/seleccion-Sascha.jpg" />
+        <img alt="artwork" className="img" src="img/seleccion-Selin.jpg" />
+      </div>
     </Layout>
   )
 }
