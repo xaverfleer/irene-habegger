@@ -1,7 +1,5 @@
 # irene requested tasks
 
-- font -> "check in facebook messenger"
-
 # from irene requested tasks
 
 - images
