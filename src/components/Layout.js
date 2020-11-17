@@ -39,7 +39,13 @@ const Layout = ({ children }) => (
         </ul>
       </nav>
     </aside>
-    <footer></footer>
+    <main>{children}</main>
+    <footer className="footer">
+      Created with ♥ by{' '}
+      <a className="footer__link" href="mailto:xaver.fleer@gmail.com">
+        Xaver Fleer
+      </a>
+    </footer>
   </div>
 )
 

@@ -7,7 +7,6 @@
 
 # Xaver likes to do
 
-- add footer
 - move all Irene specific code to config.md
 - open close menu
 
