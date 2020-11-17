@@ -1,8 +1,18 @@
 # irene requested tasks
 
+- magnify images
+- one image landing page (gray white guy)
+- add description to images
+  - name
+  - dimension
+  - technique
+  - image description rechtsbündig
+
 # from irene requested tasks
 
-- images
+- new images
+- categories
+- portfolio
 - favicon
 
 # Xaver likes to do
