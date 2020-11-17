@@ -7,7 +7,7 @@ const Layout = ({ children }) => (
   <div className="wrapper">
     <header className="header">
       <Link to="/" className="link logo">
-        Irene Habegger
+        Irene HABEGGER
       </Link>
       <nav className="nav">
         <ul className="nav__list">
