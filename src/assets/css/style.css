@@ -9,9 +9,12 @@ a.logo {
   color: #d95a88;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 62.5%;
 }
 
 .aside {
@@ -19,6 +22,7 @@ body {
 }
 
 .footer {
+  font-size: 0.62rem;
   text-align: right;
 }
 
@@ -59,11 +63,11 @@ body {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 2.61802rem;
 }
 
 .nav__entry {
-  font-size: 1.25rem;
+  font-size: 1.61803rem;
   text-transform: uppercase;
 }
 
