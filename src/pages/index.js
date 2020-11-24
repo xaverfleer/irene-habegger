@@ -12,23 +12,18 @@ const HomeIndex = () => {
         <title>Irene Habegger | Artist</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-      <div className="imgs-group imgs-group-3">
-        <img alt="pared-01" className="img" src="img/pared-01.jpg" />
-        <img alt="pared-02" className="img" src="img/pared-03.jpg" />
-        <img alt="pared-03" className="img" src="img/pared-02.jpg" />
-      </div>
-      <div className="imgs-group imgs-group-2">
-        <img alt="artwork" className="img" src="img/seleccion-Joel.jpg" />
-        <img alt="artwork" className="img" src="img/seleccion-02.jpg" />
-      </div>
-      <div className="imgs-group imgs-group-2">
-        <img alt="artwork" className="img" src="img/seleccion-Sascha.jpg" />
-        <img alt="artwork" className="img" src="img/seleccion-Selin.jpg" />
-      </div>
-      <div className="imgs-group imgs-group-3">
-        <img alt="artwork" className="img" src="img/seleccion-01.jpg" />
-        <img alt="artwork" className="img" src="img/seleccion-Xaver.jpg" />
-        <img alt="artwork" className="img" src="img/seleccion-Marco.jpg" />
+      <div className="img-container">
+        <img
+          alt="pared-02"
+          className="img-container__img"
+          src="img/pared-03.jpg"
+        />
+        <div className="img-container__description">
+          <div className="img-container__title">Wall 1</div>
+          <div>acrylic, oil and coal on canvas</div>
+          <div>155 x 100 cm</div>
+          <div>2017</div>
+        </div>
       </div>
     </Layout>
   )

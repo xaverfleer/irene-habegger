@@ -30,8 +30,17 @@ body {
   color: #d95a88;
 }
 
-.img {
+.img-container__description {
+  text-align: right;
+}
+
+.img-container__img {
+  max-height: 70vh;
   max-width: 100%;
+}
+
+.img-container__title {
+  font-weight: bold;
 }
 
 .imgs-group {
