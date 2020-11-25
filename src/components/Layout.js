@@ -12,12 +12,12 @@ const Layout = ({ children }) => (
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__entry">
-            <Link className="link" to="/paintings">
-              Paintings
+            <Link className="link" to="/black-series">
+              black series
             </Link>
           </li>
           <li className="nav__entry">
-            <Link className="link" to="/paintings">
+            <Link className="link" to="/black-series">
               Drawings
             </Link>
           </li>

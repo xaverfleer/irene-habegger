@@ -30,6 +30,14 @@ body {
   color: #d95a88;
 }
 
+.img-container {
+  margin-bottom: 10em;
+}
+
+.img-container:last-of-type {
+  margin-bottom: 0;
+}
+
 .img-container__description {
   text-align: right;
 }
