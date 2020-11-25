@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 
 import bowlAndStone from '../../static/img/black-02-Schale-und-Stein.jpg'
+import bark from '../../static/img/black-03-Rinde.jpg'
 
 const HomeIndex = () => {
   const siteDescription = 'Irene Habegger | Paintings'
@@ -15,6 +16,13 @@ const HomeIndex = () => {
       technique: 'oil on canvas',
       size: '150 x 200 cm',
       year: '2017',
+    },
+    {
+      title: 'Bark',
+      src: bark,
+      technique: 'oil on canvas',
+      size: '150 x 200 cm',
+      year: '2016',
     },
   ]
 
@@ -39,7 +47,9 @@ const HomeIndex = () => {
         <meta name="description" content={siteDescription} />
       </Helmet>
       <div className="thumbs">
-        <ImgContainer props={imgs[0]} />
+        {imgs.map((img) => (
+          <ImgContainer props={img} />
+        ))}
         <div className="img-container">
           <img
             alt="Foto"
