@@ -24,6 +24,13 @@ const HomeIndex = () => {
       size: '150 x 200 cm',
       year: '2016',
     },
+    {
+      title: 'Unnamed',
+      src: unnamed,
+      technique: 'oil on canvas',
+      size: '150 x 200 cm',
+      year: '2017',
+    },
   ]
 
   function ImgContainer({ props }) {
