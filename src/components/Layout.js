@@ -13,7 +13,7 @@ const Layout = ({ children }) => (
         <ul className="nav__list">
           <li className="nav__entry">
             <Link className="link" to="/black-series">
-              black series
+              Black series
             </Link>
           </li>
           <li className="nav__entry">
