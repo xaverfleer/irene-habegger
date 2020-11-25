@@ -3,11 +3,9 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 
-import appData from '../appData'
+import { blackSeries } from '../appData'
 
 const HomeIndex = () => {
-  const siteDescription = 'Irene Habegger | Paintings'
-
   function ImgContainer({ props }) {
     return (
       <div className="img-container">
@@ -25,10 +23,10 @@ const HomeIndex = () => {
   return (
     <Layout>
       <Helmet>
-        <title>irene habegger / black series</title>
-        <meta name="description" content={siteDescription} />
+        <title>{blackSeries.title}</title>
+        <meta name="description" content={blackSeries.title} />
       </Helmet>
-      {appData.blackSeries.map((img) => (
+      {blackSeries.imgs.map((img) => (
         <ImgContainer props={img} />
       ))}
     </Layout>
