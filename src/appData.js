@@ -1,3 +1,7 @@
+import wall01 from '../static/img/wall-01.jpg'
+import wall02 from '../static/img/wall-02.jpg'
+import wall03 from '../static/img/wall-03.jpg'
+import wall04 from '../static/img/wall-04.jpg'
 import bowlAndStone from '../static/img/black-02-Schale-und-Stein.jpg'
 import bark from '../static/img/black-03-Rinde.jpg'
 import unnamed from '../static/img/black-04-No-name.jpg'
@@ -10,6 +14,39 @@ import portrait09MarcoII from '../static/img/portrait-09-Marco-II.jpg'
 import portrait10Xaver from '../static/img/portrait-10-Xaver.jpg'
 
 const appData = {
+  walls: {
+    title: 'Irene Habegger | Walls',
+    imgs: [
+      {
+        title: 'Wall 1',
+        src: wall01,
+        technique: 'acrylic, oil and coal on canvas',
+        size: '155 x 100 cm',
+        year: '2017',
+      },
+      {
+        title: 'Wall 2',
+        src: wall02,
+        technique: 'acrylic, oil and coal on canvas',
+        size: '155 x 100 cm',
+        year: '2017',
+      },
+      {
+        title: 'Wall 3',
+        src: wall03,
+        technique: 'acrylic, oil and coal on canvas',
+        size: '155 x 100 cm',
+        year: '2017',
+      },
+      {
+        title: 'Wall 4',
+        src: wall04,
+        technique: 'acrylic, oil and coal on canvas',
+        size: '155 x 100 cm',
+        year: '2017',
+      },
+    ],
+  },
   blackSeries: {
     title: 'Irene Habegger | Black series',
     imgs: [
@@ -93,5 +130,6 @@ const appData = {
 }
 
 export default appData
+export const { walls } = appData
 export const { blackSeries } = appData
 export const { portraits } = appData

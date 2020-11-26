@@ -12,6 +12,11 @@ const Layout = ({ children }) => (
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__entry">
+            <Link className="link" to="/walls">
+              Walls
+            </Link>
+          </li>
+          <li className="nav__entry">
             <Link className="link" to="/black-series">
               Black series
             </Link>
