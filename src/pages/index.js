@@ -15,7 +15,10 @@ const HomeIndex = () => {
         <title>Irene Habegger | Artist</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-      <ImgContainer props={imgData.imgs[2]} />
+      <div className="imgs--index">
+        <ImgContainer props={imgData.imgs[2]} />
+        <ImgContainer props={imgData.imgs[1]} />
+      </div>
     </Layout>
   )
 }

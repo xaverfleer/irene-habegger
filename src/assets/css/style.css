@@ -80,6 +80,10 @@ body {
   max-width: calc(70% / 4);
 }
 
+.imgs--index > .img-container:last-child {
+  display: none;
+}
+
 .logo {
   font-size: 2.61802rem;
 }
@@ -106,6 +110,18 @@ body {
 
   .aside {
     flex: 1 1 100px;
+  }
+
+  .imgs--index {
+    display: flex;
+  }
+
+  .imgs--index > .img-container {
+    margin-right: 1em;
+  }
+
+  .imgs--index > .img-container:last-child {
+    display: initial;
   }
 
   .wrapper {
