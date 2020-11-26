@@ -3,6 +3,8 @@ import bark from '../static/img/black-03-Rinde.jpg'
 import unnamed from '../static/img/black-04-No-name.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
+import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
+import portrait04Joel from '../static/img/portrait-04-Joel.jpg'
 
 const appData = {
   blackSeries: {
@@ -44,6 +46,20 @@ const appData = {
       {
         title: 'Sascha',
         src: portrait02Sascha,
+        technique: 'oil on canvas',
+        size: '30 x 30 cm',
+        year: '2017',
+      },
+      {
+        title: 'Selin',
+        src: portrait03Selin,
+        technique: 'oil on canvas',
+        size: '30 x 30 cm',
+        year: '2017',
+      },
+      {
+        title: 'Joël',
+        src: portrait04Joel,
         technique: 'oil on canvas',
         size: '30 x 30 cm',
         year: '2017',
