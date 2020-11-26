@@ -6,6 +6,7 @@
 
 # Xaver likes to do
 
+- add bio
 - use gatsby image
 - magnify images
 - add contact form
