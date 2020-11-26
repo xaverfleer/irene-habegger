@@ -1,10 +1,5 @@
-import wall01 from '../static/img/wall-01.jpg'
-import wall02 from '../static/img/wall-02.jpg'
-import wall03 from '../static/img/wall-03.jpg'
-import wall04 from '../static/img/wall-04.jpg'
 import bowlAndStone from '../static/img/black-02-Schale-und-Stein.jpg'
 import bark from '../static/img/black-03-Rinde.jpg'
-import unnamed from '../static/img/black-04-No-name.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
@@ -12,6 +7,11 @@ import portrait04Joel from '../static/img/portrait-04-Joel.jpg'
 import portrait08Floyd from '../static/img/portrait-08-Floyd.jpg'
 import portrait09MarcoII from '../static/img/portrait-09-Marco-II.jpg'
 import portrait10Xaver from '../static/img/portrait-10-Xaver.jpg'
+import unnamed from '../static/img/black-04-No-name.jpg'
+import wall01 from '../static/img/wall-01.jpg'
+import wall02 from '../static/img/wall-02.jpg'
+import wall03 from '../static/img/wall-03.jpg'
+import wall04 from '../static/img/wall-04.jpg'
 
 const appData = {
   walls: {
