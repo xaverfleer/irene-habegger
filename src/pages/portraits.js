@@ -4,15 +4,15 @@ import Helmet from 'react-helmet'
 import ImgContainer from '../components/ImgContainer'
 import Layout from '../components/Layout'
 
-import { portraits } from '../appData'
+import { portraits as imgData } from '../appData'
 
 const HomeIndex = () => (
   <Layout>
     <Helmet>
-      <title>{portraits.title}</title>
-      <meta name="description" content={portraits.title} />
+      <title>{imgData.title}</title>
+      <meta name="description" content={imgData.title} />
     </Helmet>
-    {portraits.imgs.map((img) => (
+    {imgData.imgs.map((img) => (
       <ImgContainer props={img} />
     ))}
   </Layout>

@@ -136,8 +136,8 @@ const appData = {
       },
     ],
   },
-  blackSeries: {
-    title: 'Irene Habegger | Black series',
+  skinAndStone: {
+    title: 'Irene Habegger | Skin and stone',
     imgs: [
       {
         title: 'Bowl and stone',
@@ -165,4 +165,4 @@ const appData = {
 }
 
 export default appData
-export const { walls, hedges, blackSeries, portraits } = appData
+export const { hedges, portraits, skinAndStone, walls } = appData

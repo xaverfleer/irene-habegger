@@ -4,15 +4,15 @@ import Helmet from 'react-helmet'
 import ImgContainer from '../components/ImgContainer'
 import Layout from '../components/Layout'
 
-import { blackSeries } from '../appData'
+import { skinAndStone as imgData } from '../appData'
 
 const HomeIndex = () => (
   <Layout>
     <Helmet>
-      <title>{blackSeries.title}</title>
-      <meta name="description" content={blackSeries.title} />
+      <title>{imgData.title}</title>
+      <meta name="description" content={imgData.title} />
     </Helmet>
-    {blackSeries.imgs.map((img) => (
+    {imgData.imgs.map((img) => (
       <ImgContainer props={img} />
     ))}
   </Layout>

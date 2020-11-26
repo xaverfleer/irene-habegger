@@ -28,21 +28,6 @@ const Layout = ({ children }) => (
           <LinkEntry props={{ to: '/videos', label: 'Videos' }} />
           <LinkEntry props={{ to: '/bio', label: 'Bio' }} />
           <LinkEntry props={{ to: '/contact', label: 'Contact' }} />
-          <li className="nav__entry">
-            <Link className="link" to="/videos">
-              Videos
-            </Link>
-          </li>
-          <li className="nav__entry">
-            <Link className="link" to="/bio">
-              Bio
-            </Link>
-          </li>
-          <li className="nav__entry">
-            <Link className="link" to="/contact">
-              Contact
-            </Link>
-          </li>
         </ul>
       </nav>
     </aside>
