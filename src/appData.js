@@ -5,6 +5,9 @@ import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
 import portrait04Joel from '../static/img/portrait-04-Joel.jpg'
+import portrait08Floyd from '../static/img/portrait-08-Floyd.jpg'
+import portrait09MarcoII from '../static/img/portrait-09-Marco-II.jpg'
+import portrait10Xaver from '../static/img/portrait-10-Xaver.jpg'
 
 const appData = {
   blackSeries: {
@@ -62,6 +65,27 @@ const appData = {
         src: portrait04Joel,
         technique: 'oil on canvas',
         size: '30 x 30 cm',
+        year: '2017',
+      },
+      {
+        title: 'Floyd',
+        src: portrait08Floyd,
+        technique: 'oil on canvas',
+        size: '34 x 34 cm',
+        year: '2017',
+      },
+      {
+        title: 'Marco II',
+        src: portrait09MarcoII,
+        technique: 'oil on canvas',
+        size: '30 x 24 cm',
+        year: '2017',
+      },
+      {
+        title: 'Xaver',
+        src: portrait10Xaver,
+        technique: 'oil on canvas',
+        size: '40 x 30 cm',
         year: '2017',
       },
     ],
