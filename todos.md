@@ -2,7 +2,8 @@
 
 # xaver requests
 
-- favicon
+- favicon irenehabegger
+- favicon denispeter
 
 # Xaver likes to do
 
