@@ -3,6 +3,14 @@ import '../assets/css/style.css'
 import React from 'react'
 import { Link } from 'gatsby'
 
+const LinkEntry = ({ props }) => (
+  <li className="nav__entry">
+    <Link className="link" to={props.to}>
+      {props.label}
+    </Link>
+  </li>
+)
+
 const Layout = ({ children }) => (
   <div className="wrapper">
     <aside className="aside">
@@ -11,21 +19,15 @@ const Layout = ({ children }) => (
       </Link>
       <nav className="nav">
         <ul className="nav__list">
-          <li className="nav__entry">
-            <Link className="link" to="/walls">
-              Walls
-            </Link>
-          </li>
-          <li className="nav__entry">
-            <Link className="link" to="/black-series">
-              Black series
-            </Link>
-          </li>
-          <li className="nav__entry">
-            <Link className="link" to="/portraits">
-              Portraits
-            </Link>
-          </li>
+          <LinkEntry props={{ to: '/walls', label: 'Walls' }} />
+          <LinkEntry props={{ to: '/portraits', label: 'Portraits' }} />
+          <LinkEntry props={{ to: '/hedges', label: 'Hedges' }} />
+          <LinkEntry
+            props={{ to: '/skin-and-stone', label: 'Skin and Stone' }}
+          />
+          <LinkEntry props={{ to: '/videos', label: 'Videos' }} />
+          <LinkEntry props={{ to: '/bio', label: 'Bio' }} />
+          <LinkEntry props={{ to: '/contact', label: 'Contact' }} />
           <li className="nav__entry">
             <Link className="link" to="/videos">
               Videos
