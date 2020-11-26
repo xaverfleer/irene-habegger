@@ -1,16 +1,13 @@
-# irene requested tasks
+# irene requests
 
-- magnify images
+# xaver requests
 
-# from irene requested tasks
-
-- new images
-- categories
-- portfolio
 - favicon
 
 # Xaver likes to do
 
+- use gatsby image
+- magnify images
 - add contact form
 - move all Irene specific code to config.md
 - open close menu
