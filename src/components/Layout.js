@@ -17,8 +17,8 @@ const Layout = ({ children }) => (
             </Link>
           </li>
           <li className="nav__entry">
-            <Link className="link" to="/black-series">
-              Drawings
+            <Link className="link" to="/portraits">
+              Portraits
             </Link>
           </li>
           <li className="nav__entry">
