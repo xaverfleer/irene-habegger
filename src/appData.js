@@ -1,5 +1,9 @@
 import bowlAndStone from '../static/img/black-02-Schale-und-Stein.jpg'
 import bark from '../static/img/black-03-Rinde.jpg'
+import hedge01 from '../static/img/hedge-01.jpg'
+import hedge02 from '../static/img/hedge-02.jpg'
+import hedge03 from '../static/img/hedge-03.jpg'
+import hedge04 from '../static/img/hedge-04.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
@@ -105,11 +109,30 @@ const appData = {
     title: 'Irene Habegger | Hedges',
     imgs: [
       {
-        title: 'Bowl and stone',
-        src: bowlAndStone,
+        title: 'Hedge',
+        src: hedge01,
         technique: 'oil on canvas',
-        size: '150 x 200 cm',
+        size: '58 x 45 cm, 70 x 50 cm , 70 X 50, 50 x 50 cm',
         year: '2017',
+      },
+      {
+        title: 'Installation',
+        src: hedge02,
+        technique: 'oil on canvas',
+      },
+      {
+        title: 'Hedge',
+        src: hedge03,
+        technique: 'oil on canvas',
+        size: '40 x 40 cm',
+        year: '2017',
+      },
+      {
+        title: 'Crust',
+        src: hedge04,
+        technique: 'oil on canvas',
+        size: '135 x 85 cm',
+        year: '2016',
       },
     ],
   },
@@ -142,6 +165,4 @@ const appData = {
 }
 
 export default appData
-export const { walls } = appData
-export const { blackSeries } = appData
-export const { portraits } = appData
+export const { walls, hedges, blackSeries, portraits } = appData

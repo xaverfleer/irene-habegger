@@ -32,6 +32,7 @@ body {
 
 .img-container {
   margin-bottom: 10em;
+  text-align: right;
 }
 
 .img-container:last-of-type {
