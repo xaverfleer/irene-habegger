@@ -1,7 +1,6 @@
 import bowlAndStone from '../static/img/black-02-Schale-und-Stein.jpg'
 import bark from '../static/img/black-03-Rinde.jpg'
 import hedge01 from '../static/img/hedge-01.jpg'
-import hedge02 from '../static/img/hedge-02.jpg'
 import hedge03 from '../static/img/hedge-03.jpg'
 import hedge04 from '../static/img/hedge-04.jpg'
 import hedge05 from '../static/img/hedge-05.jpg'
