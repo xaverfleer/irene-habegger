@@ -1,3 +1,11 @@
+# prepare phone call
+
+- hedges split up
+- bio
+- email
+- questions about 2 irene requests
+- favicons
+
 # irene requests
 
 - abstände zwischen den Bildern
