@@ -4,6 +4,10 @@ import hedge01 from '../static/img/hedge-01.jpg'
 import hedge02 from '../static/img/hedge-02.jpg'
 import hedge03 from '../static/img/hedge-03.jpg'
 import hedge04 from '../static/img/hedge-04.jpg'
+import hedge05 from '../static/img/hedge-05.jpg'
+import hedge06 from '../static/img/hedge-06.jpg'
+import hedge07 from '../static/img/hedge-07.jpg'
+import hedge08 from '../static/img/hedge-08.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
@@ -116,9 +120,32 @@ const appData = {
         year: '2017',
       },
       {
-        title: 'Installation',
-        src: hedge02,
+        title: 'Hedge',
+        src: hedge08,
         technique: 'oil on canvas',
+        size: '58 x 45 cm',
+        year: '2017',
+      },
+      {
+        title: 'Hedge',
+        src: hedge05,
+        technique: 'oil on canvas',
+        size: '70 x 50 cm',
+        year: '2017',
+      },
+      {
+        title: 'Hedge',
+        src: hedge06,
+        technique: 'oil on canvas',
+        size: '70 x 50 cm',
+        year: '2017',
+      },
+      {
+        title: 'Hedge',
+        src: hedge07,
+        technique: 'oil on canvas',
+        size: '50 x 50 cm',
+        year: '2017',
       },
       {
         title: 'Hedge',
