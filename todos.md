@@ -1,5 +1,8 @@
 # irene requests
 
+- abstände zwischen den Bildern
+- larger images on landing page
+
 # xaver requests
 
 - favicon irenehabegger
@@ -7,8 +10,9 @@
 
 # Xaver likes to do
 
-- add bio
+- add email
 - use gatsby image
+- add bio
 - magnify images
 - add contact form
 - move all Irene specific code to config.md
