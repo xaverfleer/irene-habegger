@@ -12,9 +12,11 @@ const page = () => (
       <title>{imgData.title}</title>
       <meta name="description" content={imgData.title} />
     </Helmet>
-    {imgData.imgs.map((img) => (
-      <ImgContainer props={img} />
-    ))}
+    <div className="gallery">
+      {imgData.imgs.map((img) => (
+        <ImgContainer props={img} />
+      ))}
+    </div>
   </Layout>
 )
 
