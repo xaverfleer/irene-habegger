@@ -116,7 +116,7 @@ const appData = {
         title: 'Hedge',
         src: hedge01,
         technique: 'oil on canvas',
-        size: '58 x 45 cm, 70 x 50 cm , 70 X 50, 50 x 50 cm',
+        size: '58 x 45 cm, 70 x 50 cm, 70 x 50, 50 x 50 cm',
         year: '2017',
       },
       {
