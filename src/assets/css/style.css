@@ -113,7 +113,7 @@ body {
 
 @media (min-width: 850px) {
   main {
-    justify-self: start;
+    justify-self: center;
   }
 
   .aside {
