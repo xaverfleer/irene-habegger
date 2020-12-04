@@ -102,11 +102,11 @@ ul {
 }
 
 .logo {
-  font-size: 2.61802rem;
+  font-size: 3.23606rem;
 }
 
 .nav__entry {
-  font-size: 1.61803rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -148,7 +148,7 @@ ul {
   }
 
   .wrapper {
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     align-items: start;
     margin: 2%;
   }
