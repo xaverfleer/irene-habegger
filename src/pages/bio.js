@@ -25,14 +25,16 @@ const HomeIndex = () => {
       <h2>Exhibitions</h2>
       <p>
         <ul>
+          <li>2020 Kunsthaus Steffisburg. Cantonale Berne Jura, CH</li>
           <li>
-            2020 Kunsthaus Steffisburg. Cantonale Berne Jura, CH 2016 Musée
-            jurassien des Arts, Moutier. Cantonale Berne Jura, CH
+            2016 Musée jurassien des Arts, Moutier. Cantonale Berne Jura, CH
           </li>
           <li>
             2014 Pinturas (solo exhibition), Centro cultural El Faro, Buenos
-            Aires, AR2013 VII Salon of Contemporary Art of San Isidro, Buenos
             Aires, AR
+          </li>
+          <li>
+            2013 VII Salon of Contemporary Art of San Isidro, Buenos Aires, AR
           </li>
         </ul>
       </p>
