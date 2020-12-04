@@ -12,7 +12,6 @@ const HomeIndex = () => {
         <title>Irene Habegger | Videos</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-      <h1>About Irene</h1>
       <h2>Bio</h2>
       <p>
         Irene Habegger is an Argentinean artist who was born in Buenos Aires in
