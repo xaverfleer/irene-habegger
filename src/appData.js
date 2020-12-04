@@ -1,4 +1,4 @@
-import bowlAndStone from '../static/img/black-02-Schale-und-Stein.jpg'
+import skinAndStown from '../static/img/black-02-Schale-und-Stein.jpg'
 import bark from '../static/img/black-03-Rinde.jpg'
 import hedge01 from '../static/img/hedge-01.jpg'
 import hedge03 from '../static/img/hedge-03.jpg'
@@ -166,8 +166,8 @@ const appData = {
     title: 'Irene Habegger | Skin and stone',
     imgs: [
       {
-        title: 'Bowl and stone',
-        src: bowlAndStone,
+        title: 'Skin and stone',
+        src: skinAndStown,
         technique: 'oil on canvas',
         size: '150 x 200 cm',
         year: '2017',
