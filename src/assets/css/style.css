@@ -48,8 +48,8 @@ ul {
 .img-container {
   margin-bottom: 10em;
   text-align: right;
-  font-size: 1rem;
-  color: #aaa;
+  font-size: 1.23607rem;
+  color: #777;
 }
 
 .img-container:last-of-type {
