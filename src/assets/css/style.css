@@ -27,12 +27,9 @@ html {
   font-size: 62.5%;
 }
 
-li {
-  list-style-type: '– ';
-}
-
 ul {
   padding-inline-start: 1em;
+  list-style-type: '– ';
 }
 
 .aside {
