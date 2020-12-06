@@ -36,6 +36,55 @@ ul {
   text-align: right;
 }
 
+.contact-form__entry {
+  background-color: #f5d6e1;
+  border-radius: 8px;
+  height: 2.5em;
+  position: relative;
+  width: 200px;
+}
+
+.contact-form__entry:focus-within {
+  background-color: #ebadc3;
+}
+
+.contact-form__entry * {
+  transition: all 0.1s ease-in-out;
+  transition: font-size 0.1s ease-in-out;
+}
+
+.contact-form__input {
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  font-size: inherit;
+  height: 100%;
+  outline: none;
+  padding: 1.1em 0.6em 0.3em;
+  position: absolute;
+  width: 100%;
+}
+
+.contact-form__label {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1.1em 0.6em 0.3em;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+
+.contact-form__entry--non-empty > .contact-form__label,
+.contact-form__input:focus ~ .contact-form__label {
+  font-size: 1.23607rem;
+  padding-top: 0.3em;
+}
+
+.contact-form__required-indicator {
+  color: #d95a88;
+}
+
 .footer {
   font-size: 1.23607rem;
   text-align: right;
