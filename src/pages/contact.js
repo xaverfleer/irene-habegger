@@ -39,6 +39,7 @@ const ContactFormEntry = ({ props }) => {
   )
 }
 
+const page = () => {
   const siteDescription = 'Irene Habegger | Contact'
 
   return (
@@ -63,4 +64,4 @@ const ContactFormEntry = ({ props }) => {
   )
 }
 
-export default HomeIndex
+export default page
