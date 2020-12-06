@@ -44,9 +44,10 @@ ul {
 .contact-form__entry {
   background-color: #f5d6e1;
   border-radius: 8px;
-  flex: 1 0 200px;
-  height: 2.5em;
-  margin: 0 1em 0.3em 0;
+  flex: 1 0 40%;
+  min-height: 2.5em;
+  min-width: 250px;
+  margin: 0 0.3em 0.3em 0;
   position: relative;
 }
 
@@ -59,11 +60,24 @@ ul {
   transition: font-size 0.1s ease-in-out;
 }
 
+.contact-form__entry--textarea {
+  height: 10em;
+}
+
+.contact-form__entry--textarea .contact-form__input {
+  resize: none;
+}
+
+.contact-form__entry--textarea .contact-form__label {
+  padding-top: 8.6em;
+}
+
 .contact-form__input {
   background-color: transparent;
   border: none;
   box-sizing: border-box;
   color: inherit;
+  font-family: inherit;
   font-size: inherit;
   height: 100%;
   outline: none;
@@ -178,6 +192,7 @@ ul {
 @media (min-width: 850px) {
   main {
     justify-self: center;
+    width: 100%;
   }
 
   .aside {
