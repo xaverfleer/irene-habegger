@@ -51,13 +51,7 @@ const page = () => {
       I look forward to your message.
       <form className="contact-form">
         <ContactFormEntry
-          className="contact-form__entry"
-          props={{
-            label: 'Name',
-            name: 'name',
-            type: 'text',
-            required: true,
-          }}
+          props={{ label: 'Name', name: 'name', type: 'text', required: true }}
         />
       </form>
     </Layout>
