@@ -48,7 +48,8 @@ const page = () => {
         <title>{siteDescription}</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-      I look forward to your message.
+      <h1>Contact</h1>
+      <p>Thank you for sending me a message message.</p>
       <form className="contact-form">
         <ContactFormEntry
           props={{ label: 'Name', name: 'name', type: 'text', required: true }}
