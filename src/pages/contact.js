@@ -12,7 +12,7 @@ const HomeIndex = () => {
         <title>{siteDescription}</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-      drop me a message
+      I look forward to your message.
     </Layout>
   )
 }
