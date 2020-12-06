@@ -36,10 +36,18 @@ ul {
   text-align: right;
 }
 
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
 .contact-form__entry {
   background-color: #f5d6e1;
   border-radius: 8px;
+  flex: 1 0 200px;
   height: 2.5em;
+  margin: 0 1em 0.3em 0;
   position: relative;
   width: 200px;
 }

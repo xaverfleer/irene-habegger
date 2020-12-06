@@ -53,6 +53,14 @@ const page = () => {
         <ContactFormEntry
           props={{ label: 'Name', name: 'name', type: 'text', required: true }}
         />
+        <ContactFormEntry
+          props={{
+            label: 'Telefon oder E-Mail',
+            name: 'contact',
+            type: 'text',
+            required: true,
+          }}
+        />
       </form>
     </Layout>
   )
