@@ -60,7 +60,7 @@ const page = () => {
         <meta name="description" content={siteDescription} />
       </Helmet>
       <h1>Contact</h1>
-      <p>Thank you for sending me a message message.</p>
+      <p>I look forward to hearing from you.</p>
       <form className="contact-form">
         <div className="contact-form__entries">
           <ContactFormEntry
