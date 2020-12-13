@@ -38,6 +38,12 @@ ul {
 
 .contact-form {
   display: flex;
+  flex-direction: column;
+  max-width: 750px;
+}
+
+.contact-form__entries {
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -52,10 +58,6 @@ ul {
 
 .contact-form__entry:focus-within {
   background-color: #ebadc3;
-}
-
-.contact-form__entry * {
-  transition: all 0.1s ease-in-out;
 }
 
 .contact-form__entry--textarea .contact-form__input {
@@ -80,6 +82,7 @@ ul {
   padding: 1.1em 0.6em 0.3em;
   pointer-events: none;
   position: absolute;
+  transition: all 0.1s ease-in-out;
   width: 100%;
 }
 
@@ -91,6 +94,20 @@ ul {
 
 .contact-form__required-indicator {
   color: #d95a88;
+}
+
+.contact-form__submit {
+  align-self: flex-end;
+  background-color: #cd3268;
+  border: none;
+  border-radius: 8px;
+  color: #fcf3f6;
+  cursor: pointer;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  margin: 0 0.3em 0.3em 0;
+  text-transform: uppercase;
+  padding: 0.6em 1.8em;
 }
 
 .footer {

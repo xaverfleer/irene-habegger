@@ -62,25 +62,35 @@ const page = () => {
       <h1>Contact</h1>
       <p>Thank you for sending me a message message.</p>
       <form className="contact-form">
-        <ContactFormEntry
-          props={{ label: 'Name', name: 'name', type: 'text', required: true }}
-        />
-        <ContactFormEntry
-          props={{
-            label: 'Telefon oder E-Mail',
-            name: 'contact',
-            type: 'text',
-            required: true,
-          }}
-        />
-        <ContactFormEntry
-          props={{
-            label: 'Nachricht',
-            name: 'message',
-            type: 'textarea',
-            required: true,
-          }}
-        />
+        <div className="contact-form__entries">
+          <ContactFormEntry
+            props={{
+              label: 'Name',
+              name: 'name',
+              type: 'text',
+              required: true,
+            }}
+          />
+          <ContactFormEntry
+            props={{
+              label: 'Telefon oder E-Mail',
+              name: 'contact',
+              type: 'text',
+              required: true,
+            }}
+          />
+          <ContactFormEntry
+            props={{
+              label: 'Nachricht',
+              name: 'message',
+              type: 'textarea',
+              required: true,
+            }}
+          />
+        </div>
+        <button className="contact-form__submit" onSubmit={handleSubmit}>
+          Submit
+        </button>
       </form>
     </Layout>
   )
