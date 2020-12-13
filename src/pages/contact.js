@@ -29,6 +29,17 @@ const ContactFormEntry = ({ props }) => {
           type={props.type}
         />
       )}
+      {props.type === 'textarea' && (
+        <textarea
+          className="contact-form__input"
+          id={`contact-form-${props.name}`}
+          name={props.name}
+          onInput={handleInputChange}
+          required={props.required}
+          rows="8"
+          title={props.label}
+        ></textarea>
+      )}
       <label className="contact-form__label" for={inputId}>
         {props.label}
         <span class="contact-form__required-indicator">
@@ -59,6 +70,14 @@ const page = () => {
             label: 'Telefon oder E-Mail',
             name: 'contact',
             type: 'text',
+            required: true,
+          }}
+        />
+        <ContactFormEntry
+          props={{
+            label: 'Nachricht',
+            name: 'message',
+            type: 'textarea',
             required: true,
           }}
         />
