@@ -25,6 +25,12 @@ const Layout = ({ children }) => (
           <LinkEntry
             props={{ to: '/skin-and-stone', label: 'Skin and Stone' }}
           />
+          <LinkEntry
+            props={{
+              to: '/in-the-morning-light',
+              label: 'In the morning light',
+            }}
+          />
           <LinkEntry props={{ to: '/bio', label: 'Bio' }} />
           <LinkEntry props={{ to: '/contact', label: 'Contact' }} />
         </ul>

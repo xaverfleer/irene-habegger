@@ -18,7 +18,7 @@ const HomeIndex = () => {
       <div id="main">
         <h2>Message is submitted</h2>
         <p>
-          Thank you very much for your message. I will reply as soon as possible
+          Thank you very much for your message. I will reply as soon as
           possible.
         </p>
       </div>
