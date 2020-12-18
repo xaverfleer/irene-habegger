@@ -1,3 +1,4 @@
+import { navigate } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 
@@ -72,6 +73,11 @@ const page = () => {
     alert(
       `Senden der Nachricht fehlgeschlagen.\nBitte versuchen Sie es später noch einmal oder kontaktieren Sie mich unter ${contactEmail}.`
     )
+  }
+
+  function handleSuccess(formElem) {
+    formElem.reset()
+    navigate('/message-submitted/')
   }
 
   function handleSubmit(event) {
