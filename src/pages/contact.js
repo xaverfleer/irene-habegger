@@ -3,6 +3,8 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 
+const contactEmail = 'paintings@irenehabegger.com'
+
 const ContactFormEntry = ({ props }) => {
   function handleInputChange(e) {
     const inputElement = e.target
@@ -81,6 +83,9 @@ const page = () => {
     xhr.send(payload)
     xhr.addEventListener('load', () => {
       switch (xhr.status) {
+        case 200:
+          handleSuccess(formElem)
+          break
         default:
           handleError()
           break
