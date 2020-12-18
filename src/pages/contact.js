@@ -85,7 +85,7 @@ const page = () => {
     const formElem = event.currentTarget
     const payload = getPayload(formElem)
     const xhr = new XMLHttpRequest()
-    xhr.open('POST', `.netlify/functions/sendMessage`)
+    xhr.open('POST', `/.netlify/functions/sendMessage`)
     xhr.send(payload)
     xhr.addEventListener('load', () => {
       switch (xhr.status) {
