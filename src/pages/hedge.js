@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import ImgContainer from '../components/ImgContainer'
 import Layout from '../components/Layout'
 
-import { hedges as imgData } from '../appData'
+import { hedge as imgData } from '../appData'
 
 const HomeIndex = () => (
   <Layout>

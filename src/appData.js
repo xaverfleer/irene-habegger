@@ -2,7 +2,6 @@ import skinAndStown from '../static/img/black-02-Schale-und-Stein.jpg'
 import bark from '../static/img/black-03-Rinde.jpg'
 import hedge01 from '../static/img/hedge-01.jpg'
 import hedge03 from '../static/img/hedge-03.jpg'
-import hedge04 from '../static/img/hedge-04.jpg'
 import hedge05 from '../static/img/hedge-05.jpg'
 import hedge06 from '../static/img/hedge-06.jpg'
 import hedge07 from '../static/img/hedge-07.jpg'
@@ -14,15 +13,13 @@ import portrait04Joel from '../static/img/portrait-04-Joel.jpg'
 import portrait08Floyd from '../static/img/portrait-08-Floyd.jpg'
 import portrait09MarcoII from '../static/img/portrait-09-Marco-II.jpg'
 import portrait10Xaver from '../static/img/portrait-10-Xaver.jpg'
-import unnamed from '../static/img/black-04-No-name.jpg'
 import wall01 from '../static/img/wall-01.jpg'
 import wall02 from '../static/img/wall-02.jpg'
 import wall03 from '../static/img/wall-03.jpg'
-import wall04 from '../static/img/wall-04.jpg'
 
 const appData = {
-  walls: {
-    title: 'Irene Habegger | Walls',
+  wall: {
+    title: 'Irene Habegger | Wall',
     imgs: [
       {
         title: 'Wall 1',
@@ -41,13 +38,6 @@ const appData = {
       {
         title: 'Wall 3',
         src: wall03,
-        technique: 'acrylic, oil and coal on canvas',
-        size: '155 x 100 cm',
-        year: '2017',
-      },
-      {
-        title: 'Wall 4',
-        src: wall04,
         technique: 'acrylic, oil and coal on canvas',
         size: '155 x 100 cm',
         year: '2017',
@@ -108,8 +98,8 @@ const appData = {
       },
     ],
   },
-  hedges: {
-    title: 'Irene Habegger | Hedges',
+  hedge: {
+    title: 'Irene Habegger | Hedge',
     imgs: [
       {
         title: 'Hedge',
@@ -153,13 +143,8 @@ const appData = {
         size: '40 x 40 cm',
         year: '2017',
       },
-      {
-        title: 'Crust',
-        src: hedge04,
-        technique: 'oil on canvas',
-        size: '135 x 85 cm',
-        year: '2016',
-      },
+    ],
+  },
     ],
   },
   skinAndStone: {
@@ -179,16 +164,14 @@ const appData = {
         size: '150 x 200 cm',
         year: '2016',
       },
-      {
-        title: 'Unnamed',
-        src: unnamed,
-        technique: 'oil on canvas',
-        size: '150 x 200 cm',
-        year: '2017',
-      },
     ],
   },
 }
 
 export default appData
-export const { hedges, portraits, skinAndStone, walls } = appData
+export const {
+  hedge,
+  portraits,
+  skinAndStone,
+  wall,
+} = appData
