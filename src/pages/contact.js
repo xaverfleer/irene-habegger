@@ -53,6 +53,44 @@ const ContactFormEntry = ({ props }) => {
 const page = () => {
   const siteDescription = 'Irene Habegger | Contact'
 
+  function getFormData(formElem) {
+    return [].slice
+      .call(formElem)
+      .map(({ name, value }) => ({ name, value }))
+      .filter(({ name }) => name !== 'submit')
+      .reduce((acc, { name, value }) => ({ ...acc, [name]: value }), {})
+  }
+
+  function getPayload(formElem) {
+    const formData = getFormData(formElem)
+    return JSON.stringify({ formData, recipient: contactEmail })
+  }
+
+  function handleError() {
+    alert(
+      `Senden der Nachricht fehlgeschlagen.\nBitte versuchen Sie es später noch einmal oder kontaktieren Sie mich unter ${contactEmail}.`
+    )
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault()
+    const formElem = event.currentTarget
+    const payload = getPayload(formElem)
+    const xhr = new XMLHttpRequest()
+    xhr.open('POST', `.netlify/functions/sendMessage`)
+    xhr.send(payload)
+    xhr.addEventListener('load', () => {
+      switch (xhr.status) {
+        default:
+          handleError()
+          break
+      }
+    })
+    xhr.addEventListener('error', () => {
+      handleError()
+    })
+  }
+
   return (
     <Layout>
       <Helmet>
@@ -61,7 +99,7 @@ const page = () => {
       </Helmet>
       <h1>Contact</h1>
       <p>I look forward to hearing from you.</p>
-      <form className="contact-form">
+      <form className="contact-form" onSubmit={handleSubmit}>
         <div className="contact-form__entries">
           <ContactFormEntry
             props={{
@@ -88,7 +126,7 @@ const page = () => {
             }}
           />
         </div>
-        <button className="contact-form__submit" onSubmit={handleSubmit}>
+        <button className="contact-form__submit" name="submit">
           Submit
         </button>
       </form>
