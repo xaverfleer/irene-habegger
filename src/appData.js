@@ -11,7 +11,7 @@ import object02a from '../static/img/object-08.jpg'
 import object03a from '../static/img/object-03a.jpg'
 import object04a from '../static/img/object-04a.jpg'
 import object05a from '../static/img/object-05a.jpg'
-import object05 from '../static/img/object-05.jpg'
+import object06a from '../static/img/object-05.jpg'
 import object06 from '../static/img/object-06.jpg'
 import object12 from '../static/img/object-12.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
@@ -190,7 +190,7 @@ const appData = {
       },
       {
         title: 'Object on the Wall',
-        src: object05,
+        src: object06a,
         technique: 'oil on canvas',
         size: '34 x 45 cm',
         year: '2015',
