@@ -19,9 +19,9 @@ const Layout = ({ children }) => (
       </Link>
       <nav className="nav">
         <ul className="nav__list">
-          <LinkEntry props={{ to: '/walls', label: 'Walls' }} />
+          <LinkEntry props={{ to: '/wall', label: 'Wall' }} />
           <LinkEntry props={{ to: '/portraits', label: 'Portraits' }} />
-          <LinkEntry props={{ to: '/hedges', label: 'Hedges' }} />
+          <LinkEntry props={{ to: '/hedge', label: 'Hedge' }} />
           <LinkEntry
             props={{ to: '/skin-and-stone', label: 'Skin and Stone' }}
           />
