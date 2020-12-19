@@ -6,13 +6,13 @@ import hedge05 from '../static/img/hedge-05.jpg'
 import hedge06 from '../static/img/hedge-06.jpg'
 import hedge07 from '../static/img/hedge-07.jpg'
 import hedge08 from '../static/img/hedge-08.jpg'
-import object01a from '../static/img/object-01a.jpg'
-import object02a from '../static/img/object-02a.jpg'
-import object03a from '../static/img/object-03a.jpg'
-import object04a from '../static/img/object-04a.jpg'
-import object05a from '../static/img/object-05a.jpg'
-import object06a from '../static/img/object-06a.jpg'
-import object07a from '../static/img/object-07a.jpg'
+import object01 from '../static/img/object-01.jpg'
+import object02 from '../static/img/object-02.jpg'
+import object03 from '../static/img/object-03.jpg'
+import object04 from '../static/img/object-04.jpg'
+import object05 from '../static/img/object-05.jpg'
+import object06 from '../static/img/object-06.jpg'
+import object07 from '../static/img/object-07.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
@@ -157,46 +157,46 @@ const appData = {
     imgs: [
       {
         title: 'Offering',
-        src: object01a,
+        src: object01,
         technique: 'oil on canvas',
         size: '55 x 50 cm',
         year: '2015',
       },
       {
         title: 'Unnamed',
-        src: object02a,
+        src: object02,
         technique: 'oil on canvas',
         size: '48 x 38 cm',
         year: '2015',
       },
       {
         title: 'Three hangers',
-        src: object03a,
+        src: object03,
         technique: 'oil on canvas',
         size: '65 x 60 cm',
       },
       {
         title: 'The blue plate',
-        src: object04a,
+        src: object04,
         technique: 'oil on canvas',
         size: '30 x 24 cm',
       },
       {
         title: 'Moonlight',
-        src: object05a,
+        src: object05,
         technique: 'oil on canvas',
         size: '40 x 40 cm',
       },
       {
         title: 'Object on the Wall',
-        src: object06a,
+        src: object06,
         technique: 'oil on canvas',
         size: '34 x 45 cm',
         year: '2015',
       },
       {
         title: 'Unnamed',
-        src: object07a,
+        src: object07,
         technique: 'oil on canvas',
         size: '35 x 38 cm (left), 38 x 50 cm (right)',
         year: '2014',
