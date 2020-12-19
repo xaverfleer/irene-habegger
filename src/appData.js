@@ -229,6 +229,7 @@ const appData = {
 export default appData
 export const {
   hedge,
+  inTheMorningLight,
   portraits,
   skinAndStone,
   wall,
