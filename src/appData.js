@@ -164,7 +164,7 @@ const appData = {
       },
       {
         title: 'Unnamed',
-        src: object08,
+        src: object02a,
         technique: 'oil on canvas',
         size: '48 x 38 cm',
         year: '2015',
@@ -174,6 +174,12 @@ const appData = {
         src: object03a,
         technique: 'oil on canvas',
         size: '65 x 60 cm',
+      },
+      {
+        title: 'The blue plate',
+        src: object04a,
+        technique: 'oil on canvas',
+        size: '30 x 24 cm',
       },
       {
         title: 'Blue',
