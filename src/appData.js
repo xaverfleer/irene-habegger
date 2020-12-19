@@ -12,6 +12,7 @@ import object03a from '../static/img/object-03a.jpg'
 import object04a from '../static/img/object-04a.jpg'
 import object05a from '../static/img/object-05a.jpg'
 import object06a from '../static/img/object-05.jpg'
+import object07a from '../static/img/object-07a.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
@@ -192,6 +193,13 @@ const appData = {
         technique: 'oil on canvas',
         size: '34 x 45 cm',
         year: '2015',
+      },
+      {
+        title: 'Unnamed',
+        src: object07a,
+        technique: 'oil on canvas',
+        size: '35 x 38 cm (left), 38 x 50 cm (right)',
+        year: '2014',
       },
     ],
   },
