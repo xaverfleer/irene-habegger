@@ -7,6 +7,7 @@ import hedge06 from '../static/img/hedge-06.jpg'
 import hedge07 from '../static/img/hedge-07.jpg'
 import hedge08 from '../static/img/hedge-08.jpg'
 import object01a from '../static/img/object-01a.jpg'
+import object03a from '../static/img/object-03a.jpg'
 import object01 from '../static/img/object-01.jpg'
 import object05 from '../static/img/object-05.jpg'
 import object06 from '../static/img/object-06.jpg'
@@ -168,6 +169,13 @@ const appData = {
         size: '48 x 38 cm',
         year: '2015',
       },
+      {
+        title: 'Three hangers',
+        src: object03a,
+        technique: 'oil on canvas',
+        size: '65 x 60 cm',
+      },
+      {
         title: 'Blue',
         src: object01,
         technique: 'oil on canvas',
@@ -186,13 +194,6 @@ const appData = {
         src: object06,
         technique: 'oil on canvas',
         size: '70 x 45 cm',
-        year: '2015',
-      },
-      {
-        title: 'Unnamed',
-        src: object08,
-        technique: 'oil on canvas',
-        size: '48 x 38 cm',
         year: '2015',
       },
       {
