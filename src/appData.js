@@ -6,6 +6,7 @@ import hedge05 from '../static/img/hedge-05.jpg'
 import hedge06 from '../static/img/hedge-06.jpg'
 import hedge07 from '../static/img/hedge-07.jpg'
 import hedge08 from '../static/img/hedge-08.jpg'
+import object01 from '../static/img/object-01.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
@@ -148,6 +149,13 @@ const appData = {
   inTheMorningLight: {
     title: 'Irene Habegger | In the morning light',
     imgs: [
+      {
+        title: 'Blue',
+        src: object01,
+        technique: 'oil on canvas',
+        size: '50 x 50 cm',
+        year: '2016',
+      },
     ],
   },
   skinAndStone: {
