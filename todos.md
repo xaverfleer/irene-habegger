@@ -1,28 +1,29 @@
 # prepare phone call
 
-- hedges split up
-- bio
-- email
-- questions about 2 irene requests
-- favicons
+- ✅ objects category series "In the morning light"
+- ✅ replace hedge paintings with cropped ones
+- discuss if "Bio" should be h1 or h2
+- review 'in the morning light' page, check paintings
+  - year of 'three hangers'?
+  - year of 'the blue plate'?
+  - year of 'moonlight'?
 
 # irene requests
 
-- abstände zwischen den Bildern
-- larger images on landing page
+- portrait for /bio
+- how to forward emails to hotmail
 
 # xaver requests
+
+## wait for irene to be back 10.2.2020
 
 - favicon irenehabegger
 - favicon denispeter
 
 # Xaver likes to do
 
-- add email
 - use gatsby image
-- add bio
 - magnify images
-- add contact form
 - move all Irene specific code to config.md
 - open close menu
 
