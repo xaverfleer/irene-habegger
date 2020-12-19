@@ -10,7 +10,7 @@ import object01a from '../static/img/object-01a.jpg'
 import object02a from '../static/img/object-08.jpg'
 import object03a from '../static/img/object-03a.jpg'
 import object04a from '../static/img/object-04a.jpg'
-import object01 from '../static/img/object-01.jpg'
+import object05a from '../static/img/object-01.jpg'
 import object05 from '../static/img/object-05.jpg'
 import object06 from '../static/img/object-06.jpg'
 import object12 from '../static/img/object-12.jpg'
@@ -184,7 +184,7 @@ const appData = {
       },
       {
         title: 'Blue',
-        src: object01,
+        src: object05a,
         technique: 'oil on canvas',
         size: '50 x 50 cm',
         year: '2016',
