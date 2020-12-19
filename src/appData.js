@@ -145,6 +145,9 @@ const appData = {
       },
     ],
   },
+  inTheMorningLight: {
+    title: 'Irene Habegger | In the morning light',
+    imgs: [
     ],
   },
   skinAndStone: {
