@@ -11,10 +11,10 @@ module.exports = {
     )
   },
   siteMetadata: {
-    title: 'Permakultur Handwerk | Denis Peter',
+    title: 'Irene Habegger | Artist',
     author: 'Xaver Fleer',
     description:
-      'Permakultur Bern | Beratung, Planung und Gestaltung von Permakultur-Projekten',
+      'Irene Habegger | Personal website',
   },
   plugins: [
     {
