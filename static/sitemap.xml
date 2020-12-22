@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="https://www.w3.org/1999/xhtml">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://permakultur-bern.ch/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://irenehabegger.com</loc>
+    <lastmod>2020-12-22</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://www.permakultur-bern.ch/</loc>
-    <lastmod>2020-11-08</lastmod>
-    <priority>0</priority>
+    <loc>https://irenehabegger.com/wall</loc>
+    <lastmod>2020-12-22</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://permakultur-bern.ch/mail-sent</loc>
-    <lastmod>2020-11-08</lastmod>
-    <priority>0</priority>
+    <loc>https://irenehabegger.com/portraits</loc>
+    <lastmod>2020-12-22</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.permakultur-bern.ch/mail-sent</loc>
-    <lastmod>2020-03-02</lastmod>
-    <priority>0</priority>
+    <loc>https://irenehabegger.com/hedge</loc>
+    <lastmod>2020-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://irenehabegger.com/skin-and-stone</loc>
+    <lastmod>2020-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://irenehabegger.com/in-the-morning-light</loc>
+    <lastmod>2020-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://irenehabegger.com/bio</loc>
+    <lastmod>2020-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://irenehabegger.com/contact</loc>
+    <lastmod>2020-12-22</lastmod>
+    <priority>0.5</priority>
   </url>
 </urlset>
