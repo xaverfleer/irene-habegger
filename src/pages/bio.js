@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 
 const HomeIndex = () => {
-  const siteDescription = 'Irene Habegger | Videos'
+  const siteDescription = 'Irene Habegger | Bio'
 
   return (
     <Layout>
