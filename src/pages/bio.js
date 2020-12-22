@@ -1,7 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import ImgContainer from '../components/ImgContainer'
 import Layout from '../components/Layout'
+
+import yo from '../../static/img/yo_.jpg'
 
 const HomeIndex = () => {
   const siteDescription = 'Irene Habegger | Bio'
@@ -12,6 +15,7 @@ const HomeIndex = () => {
         <title>Irene Habegger | Videos</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
+      <ImgContainer props={{ noCaption: true, src: yo, title: 'Irene' }} />
       <h2>Bio</h2>
       <p>
         Irene Habegger is an Argentinean artist who was born in Buenos Aires in
