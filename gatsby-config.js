@@ -13,8 +13,7 @@ module.exports = {
   siteMetadata: {
     title: 'Irene Habegger | Artist',
     author: 'Xaver Fleer',
-    description:
-      'Irene Habegger | Personal website',
+    description: 'Irene Habegger | Personal website',
   },
   plugins: [
     {
