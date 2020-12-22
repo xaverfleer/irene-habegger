@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 
 import yo from '../../static/img/yo_.jpg'
 
-const HomeIndex = () => {
+export default () => {
   const siteDescription = 'Irene Habegger | Bio'
 
   return (
@@ -58,5 +58,3 @@ const HomeIndex = () => {
     </Layout>
   )
 }
-
-export default HomeIndex

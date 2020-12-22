@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 
-const HomeIndex = () => {
+export default () => {
   const siteDescription =
     'Your message was submitted. Thank you for your message.'
 
@@ -25,5 +25,3 @@ const HomeIndex = () => {
     </Layout>
   )
 }
-
-export default HomeIndex

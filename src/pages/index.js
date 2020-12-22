@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 
 import { wall as imgData } from '../appData'
 
-const HomeIndex = () => {
+export default () => {
   const siteDescription = 'Irene Habegger | Artist'
 
   return (
@@ -22,5 +22,3 @@ const HomeIndex = () => {
     </Layout>
   )
 }
-
-export default HomeIndex

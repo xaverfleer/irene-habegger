@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 
-const HomeIndex = () => {
+export default () => {
   const siteDescription = 'Irene Habegger | Artist'
 
   return (
@@ -24,5 +24,3 @@ const HomeIndex = () => {
     </Layout>
   )
 }
-
-export default HomeIndex

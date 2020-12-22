@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 
 import { skinAndStone as imgData } from '../appData'
 
-const HomeIndex = () => (
+export default () => (
   <Layout>
     <Helmet>
       <title>{imgData.title}</title>
@@ -19,5 +19,3 @@ const HomeIndex = () => (
     </div>
   </Layout>
 )
-
-export default HomeIndex
