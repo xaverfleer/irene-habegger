@@ -199,13 +199,6 @@ const appData = {
         year: '2015',
       },
       {
-        title: 'Unnamed',
-        src: object07,
-        technique: 'oil on canvas',
-        size: '35 x 38 cm (left), 38 x 50 cm (right)',
-        year: '2014',
-      },
-      {
         title: 'Torch',
         src: object08,
         technique: 'oil on canvas',
