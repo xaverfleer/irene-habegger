@@ -119,6 +119,10 @@ ul {
   color: #d95a88;
 }
 
+.gallery-bio {
+  margin-bottom: 3em;
+}
+
 .img-container {
   margin-bottom: 10em;
   text-align: right;
@@ -224,10 +228,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .gallery--bio {
-    margin-bottom: 3em;
   }
 
   .wrapper {
