@@ -174,18 +174,21 @@ const appData = {
         src: object03,
         technique: 'oil on canvas',
         size: '65 x 60 cm',
+        year: '2014',
       },
       {
         title: 'The blue plate',
         src: object04,
         technique: 'oil on canvas',
         size: '30 x 24 cm',
+        year: '2015',
       },
       {
         title: 'Moonlight',
         src: object05,
         technique: 'oil on canvas',
         size: '40 x 40 cm',
+        year: '2015',
       },
       {
         title: 'Object on the Wall',
