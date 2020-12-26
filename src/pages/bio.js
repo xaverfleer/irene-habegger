@@ -15,8 +15,10 @@ export default () => {
         <title>Irene Habegger | Videos</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-      <div class="gallery">
-        <ImgContainer props={{ noCaption: true, src: yo, title: 'Irene' }} />
+      <div class="gallery gallery-bio">
+        <ImgContainer
+          props={{ name: 'bio', noCaption: true, src: yo, title: 'Irene' }}
+        />
       </div>
       <h2>Bio</h2>
       <p>

@@ -139,6 +139,10 @@ ul {
   max-width: 100%;
 }
 
+.img-container__img--bio {
+  max-width: 45vh;
+}
+
 .img-container__title {
   font-style: italic;
 }
@@ -220,6 +224,10 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .gallery--bio {
+    margin-bottom: 3em;
   }
 
   .wrapper {

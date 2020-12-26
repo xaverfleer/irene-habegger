@@ -4,7 +4,13 @@ import React from 'react'
 
 const ImgContainer = ({ props }) => (
   <div className="img-container">
-    <img alt={props.title} className="img-container__img" src={props.src} />
+    <img
+      alt={props.title}
+      className={`img-container__img ${
+        props.name && `img-container__img--${props.name}`
+      }`}
+      src={props.src}
+    />
     {!props.noCaption && (
       <div className="img-container__description">
         <span className="img-container__title">{props.title}, </span>
