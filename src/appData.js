@@ -13,6 +13,7 @@ import object04 from '../static/img/object-04.jpg'
 import object05 from '../static/img/object-05.jpg'
 import object06 from '../static/img/object-06.jpg'
 import object07 from '../static/img/object-07.jpg'
+import object08 from '../static/img/object-08.jpg'
 import portrait01Mike from '../static/img/portrait-01-Mike.jpg'
 import portrait02Sascha from '../static/img/portrait-02-Sascha.jpg'
 import portrait03Selin from '../static/img/portrait-03-Selin.jpg'
@@ -203,6 +204,13 @@ const appData = {
         technique: 'oil on canvas',
         size: '35 x 38 cm (left), 38 x 50 cm (right)',
         year: '2014',
+      },
+      {
+        title: 'Torch',
+        src: object08,
+        technique: 'oil on canvas',
+        size: '40 x 40 cm',
+        year: '2015',
       },
     ],
   },
