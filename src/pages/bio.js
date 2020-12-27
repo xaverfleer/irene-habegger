@@ -13,7 +13,7 @@ export default () => {
   return (
     <Layout>
       <Helmet>
-        <title>Irene Habegger | Bio</title>
+        <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
       <div class="gallery gallery-bio">
