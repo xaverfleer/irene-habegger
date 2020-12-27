@@ -54,7 +54,8 @@ const ContactFormEntry = ({ props }) => {
 }
 
 const page = () => {
-  const siteDescription = 'Irene Habegger | Contact'
+  const siteTitle = 'Irene Habegger | Contact'
+  const siteDescription = 'I look forward to hearing from you.'
 
   function getFormData(formElem) {
     return [].slice
@@ -105,8 +106,8 @@ const page = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{siteDescription}</title>
-        <meta name="description" content={siteDescription} />
+        <title>{siteTitle}</title>
+        <meta name="description" content={siteDescription || siteTitle} />
       </Helmet>
       <h1>Contact</h1>
       <p>I look forward to hearing from you.</p>
