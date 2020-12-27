@@ -53,6 +53,7 @@ const appData = {
     ],
   },
   portraits: {
+    description: 'Portraits series (2017)',
     title: 'Irene Habegger | Selection series',
     imgs: [
       {
@@ -107,6 +108,7 @@ const appData = {
     ],
   },
   hedge: {
+    description: 'Hedge series (2017)',
     title: 'Irene Habegger | Hedge',
     imgs: [
       {
@@ -154,6 +156,7 @@ const appData = {
     ],
   },
   inTheMorningLight: {
+    description: 'In the morning light series (2014 – 2015)',
     title: 'Irene Habegger | In the morning light',
     imgs: [
       {
@@ -208,6 +211,7 @@ const appData = {
     ],
   },
   skinAndStone: {
+    description: 'Skin and stone series (2016 – 2017)',
     title: 'Irene Habegger | Skin and stone',
     imgs: [
       {
