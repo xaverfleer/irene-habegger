@@ -7,7 +7,8 @@ import Layout from '../components/Layout'
 import yo from '../../static/img/yo_.jpg'
 
 export default () => {
-  const siteDescription = 'Irene Habegger | Bio'
+  const siteTitle = 'Irene Habegger | Bio'
+  const siteDescription = 'My biography (little) depth.'
 
   return (
     <Layout>
