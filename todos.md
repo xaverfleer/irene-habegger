@@ -1,12 +1,13 @@
 # prepare phone call
 
-- ✅ objects category series "In the morning light"
-- ✅ replace hedge paintings with cropped ones
-- ✅ portrait for /bio
-- review 'in the morning light' page, check paintings
-  - year of 'three hangers'?
-  - year of 'the blue plate'?
-  - year of 'moonlight'?
+- ✅ check links are consistent (trailing slash)
+- ✅ hide pandas
+- ✅ add descriptions
+- ✅ update sitemap
+- ✅ SEO
+  - ✅ update description
+- ✅ SEO
+  - ✅ add to Google, Bing and DuckDuckGo
 
 # irene requests
 
@@ -21,14 +22,14 @@
 
 # Xaver likes to do
 
+- add NetlifyCMS
+  - add library of images <- check if this is possible
+  - add todos
+- open close menu
 - use gatsby image
 - magnify images
 - move all Irene specific code to config.md
-- open close menu
-- SEO
-  - update description
-- SEO
-  - add to Google, Bing and DuckDuckGo
+- verify Google hides Pandas
 
 # maybe-someday
 
