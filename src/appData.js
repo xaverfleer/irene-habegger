@@ -26,6 +26,7 @@ import wall03 from '../static/img/wall-03.jpg'
 
 const appData = {
   wall: {
+    description: 'Wall series (2017)',
     title: 'Irene Habegger | Wall',
     imgs: [
       {

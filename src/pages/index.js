@@ -7,7 +7,8 @@ import Layout from '../components/Layout'
 import { wall as imgData } from '../appData'
 
 export default () => {
-  const siteDescription = 'Irene Habegger | Artist'
+  const siteDescription =
+    'Irene Habegger is an Argentinean artist who was born in Buenos Aires in 1989.'
 
   return (
     <Layout>

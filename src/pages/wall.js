@@ -10,7 +10,7 @@ const page = () => (
   <Layout>
     <Helmet>
       <title>{imgData.title}</title>
-      <meta name="description" content={imgData.title} />
+      <meta name="description" content={imgData.description || imgData.title} />
     </Helmet>
     <div className="gallery">
       {imgData.imgs.map((img) => (
