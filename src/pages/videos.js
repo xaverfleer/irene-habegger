@@ -11,6 +11,7 @@ export default () => {
       <Helmet>
         <title>Irene Habegger | Artist</title>
         <meta name="description" content={siteDescription} />
+        <meta name="robots" content="noindex" />
       </Helmet>
       <iframe
         width="560"
