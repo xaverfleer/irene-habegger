@@ -8,10 +8,9 @@
   - ✅ update description
 - ✅ SEO
   - ✅ add to Google, Bing and DuckDuckGo
+- ✅ how to forward emails to hotmail
 
 # irene requests
-
-- how to forward emails to hotmail
 
 # xaver requests
 
