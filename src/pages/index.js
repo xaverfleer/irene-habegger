@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import ImgContainer from '../components/ImgContainer'
 import Layout from '../components/Layout'
