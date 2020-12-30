@@ -15,7 +15,7 @@ const ImgContainer = ({ props }) => (
       <div className="img-container__description">
         <span className="img-container__title">{props.title}, </span>
         <span>
-          {[props.technique, props.size, props.year]
+          {[props.technique, props.dimensions, props.year]
             .filter((e) => e)
             .join(', ')}
         </span>
