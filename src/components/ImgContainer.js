@@ -9,7 +9,7 @@ const ImgContainer = ({ props }) => (
       className={`img-container__img ${
         props.name && `img-container__img--${props.name}`
       }`}
-      src={props.src}
+      src={props.img?.publicURL || props.src}
     />
     {!props.noCaption && (
       <div className="img-container__description">

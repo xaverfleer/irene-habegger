@@ -17,6 +17,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `pages`, path: `${__dirname}/content/pages` },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `img`, path: `${__dirname}/static/img/` },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
@@ -34,5 +42,6 @@ module.exports = {
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-offline',
+    'gatsby-transformer-remark',
   ],
 }
