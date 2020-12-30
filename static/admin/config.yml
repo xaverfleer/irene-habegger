@@ -19,26 +19,21 @@ collections:
             name: 'templateKey'
             widget: 'hidden'
             default: 'landingPage'
-          - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: text }
-          - { label: Background Image, name: bgImage, widget: image }
-          - { label: Me, name: meImage, widget: image }
-          - { label: Works Heading, name: worksHeading, widget: string }
-          - label: Work Samples
-            name: works
-            widget: list
-            fields:
-              - { label: Image, name: img, widget: image }
-              - { label: Caption, name: caption, widget: string }
-              - { label: Description, name: description, widget: text }
-          - label: Contact
-            name: contact
+          - label: Painting 1
+            name: painting01
             widget: object
             fields:
-              - { label: Contact Heading, name: heading, widget: string }
-              - { label: Contact Intro, name: intro, widget: text }
-              - { label: Address Line 1, name: address01, widget: string }
-              - { label: Address Line 2, name: address02, widget: string }
-              - { label: Address Line 3, name: address03, widget: string }
-              - { label: Phone, name: phone, widget: string }
-              - { label: E-Mail, name: email, widget: string }
+              - { label: Image, name: img, widget: image }
+              - { label: Name, name: name, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }
+          - label: Painting 2
+            name: painting02
+            widget: object
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Name, name: name, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }
