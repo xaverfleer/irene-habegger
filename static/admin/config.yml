@@ -8,17 +8,17 @@ public_folder: ../../static/img
 site_url: https://affectionate-ride-be4308.netlify.app/
 
 collections:
-  - label: 'Pages'
-    name: 'pages'
+  - label: Pages
+    name: pages
     files:
-      - label: 'Landing Page'
-        name: 'index'
-        file: 'content/pages/index.md'
+      - label: Landing Page
+        name: index
+        file: content/pages/index.md
         fields:
-          - label: 'Template key'
-            name: 'templateKey'
-            widget: 'hidden'
-            default: 'landingPage'
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: landingPage
           - label: Painting 1
             name: painting01
             widget: object
