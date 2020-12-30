@@ -24,7 +24,7 @@ collections:
             widget: object
             fields:
               - { label: Image, name: img, widget: image }
-              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
@@ -33,7 +33,7 @@ collections:
             widget: object
             fields:
               - { label: Image, name: img, widget: image }
-              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
