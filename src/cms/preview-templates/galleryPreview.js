@@ -10,5 +10,5 @@ export default ({ entry }) => {
     img: { publicURL: absLink(p.img) },
   }))
 
-  return page({ data: { markdownRemark: { frontmatter: rawData } } })
+  return page({ data: { markdownRemark: { frontmatter: data } } })
 }
