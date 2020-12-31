@@ -62,3 +62,28 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
+      - label: Portraits
+        name: portraits
+        file: content/pages/portraits.md
+        fields:
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: portraits
+          - label: HTML title
+            name: htmlTitle
+            widget: hidden
+            default: Irene Habegger | Portraits
+          - label: HTML description
+            name: htmlDescription
+            widget: hidden
+            default: Portraits series (2017)
+          - label: Paintings
+            name: paintings
+            widget: list
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }

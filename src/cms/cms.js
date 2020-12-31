@@ -4,3 +4,4 @@ import galleryPreview from './preview-templates/galleryPreview'
 
 CMS.registerPreviewTemplate('index', IndexPreview)
 CMS.registerPreviewTemplate('wall', galleryPreview)
+CMS.registerPreviewTemplate('portraits', galleryPreview)
