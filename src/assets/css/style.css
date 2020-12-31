@@ -119,6 +119,12 @@ ul {
   color: #d95a88;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .gallery-bio {
   margin-bottom: 3em;
 }
@@ -222,12 +228,6 @@ ul {
 
   .imgs--index > .img-container:last-child {
     display: initial;
-  }
-
-  .gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .wrapper {
