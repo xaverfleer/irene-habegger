@@ -137,3 +137,28 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
+      - label: In the morning light
+        name: inTheMorningLight
+        file: content/pages/inTheMorningLight.md
+        fields:
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: inTheMorningLight
+          - label: HTML title
+            name: htmlTitle
+            widget: hidden
+            default: Irene Habegger | In the morning light
+          - label: HTML description
+            name: htmlDescription
+            widget: hidden
+            default: In the morning light series (2017)
+          - label: Paintings
+            name: paintings
+            widget: list
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }
