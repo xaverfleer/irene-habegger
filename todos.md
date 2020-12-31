@@ -9,6 +9,7 @@
 - ✅ SEO
   - ✅ add to Google, Bing and DuckDuckGo
 - ✅ how to forward emails to hotmail
+- ✅ remove panda video
 
 # irene requests
 
