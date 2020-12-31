@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import ImgContainer from '../components/ImgContainer'
-import Layout from '../components/Layout'
+import ImgContainer from './ImgContainer'
+import Layout from './Layout'
 
 const page = ({ data }) => {
   const {

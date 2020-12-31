@@ -1,4 +1,4 @@
-import page from '../../pages/gallery'
+import Gallery from '../../components/Gallery'
 
 const absLink = (relLink) => (relLink ? relLink.split('../../static')[1] : '')
 
@@ -10,5 +10,5 @@ export default ({ entry }) => {
     img: { publicURL: absLink(p.img) },
   }))
 
-  return page({ data: { markdownRemark: { frontmatter: data } } })
+  return Gallery({ data: { markdownRemark: { frontmatter: data } } })
 }
