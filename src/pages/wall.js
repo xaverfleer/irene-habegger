@@ -1,5 +1,4 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
 import Gallery from '../components/Gallery'
 
