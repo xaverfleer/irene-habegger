@@ -87,3 +87,28 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
+      - label: Hedge
+        name: hedge
+        file: content/pages/hedge.md
+        fields:
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: hedge
+          - label: HTML title
+            name: htmlTitle
+            widget: hidden
+            default: Irene Habegger | Hedge
+          - label: HTML description
+            name: htmlDescription
+            widget: hidden
+            default: Hedge series (2017)
+          - label: Paintings
+            name: paintings
+            widget: list
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }
