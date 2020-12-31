@@ -112,3 +112,28 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
+      - label: Skin and stone
+        name: skinAndStone
+        file: content/pages/skinAndStone.md
+        fields:
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: skinAndStone
+          - label: HTML title
+            name: htmlTitle
+            widget: hidden
+            default: Irene Habegger | Skin and stone
+          - label: HTML description
+            name: htmlDescription
+            widget: hidden
+            default: Skin and stone series (2017)
+          - label: Paintings
+            name: paintings
+            widget: list
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }
