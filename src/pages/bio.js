@@ -53,8 +53,8 @@ export default () => {
           Buenos Aires, AR
         </li>
         <li>
-          2011 First prize LIV Buenos Aires Annual Salon of Plein Air Painting
-          2011, AR
+          2011 First prize LIV Buenos Aires Annual Salon of Plein Air Painting,
+          Buenos Aires, AR
         </li>
       </ul>
     </Layout>
