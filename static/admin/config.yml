@@ -162,3 +162,21 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
+      - label: Bio
+        name: bio
+        file: content/pages/bio.md
+        fields:
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: bio
+          - label: HTML title
+            name: htmlTitle
+            widget: hidden
+            default: Irene Habegger | Bio
+          - label: HTML description
+            name: htmlDescription
+            widget: hidden
+            default: My biography (little) depth.
+          - { label: Image (me), name: img, widget: image }
+          - { label: 'Biography', name: 'body', widget: 'markdown' }
