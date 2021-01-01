@@ -22,17 +22,16 @@
 
 # Xaver likes to do
 
-- add NetlifyCMS
-  - add library of images <- check if this is possible
-  - add todos
-- open close menu
-- use gatsby image
-- magnify images
-- move all Irene specific code to config.md
-- verify Google hides Pandas
-
 # maybe-someday
 
+- create possibility to add custom painting series
+- open close menu
+- use gatsby image
+  - render iage placeholder like gatsby image
+- magnify images
+  - manual carousel
+- move all Irene specific code to config.md
+- verify Google hides Pandas
 - read email from index.md, always
 - add possibility to update images with netlify-cms
 - add analytics
