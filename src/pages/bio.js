@@ -32,22 +32,20 @@ export default () => {
         lives between Italy and Switzerland.
       </p>
       <h2>Exhibitions</h2>
-      <p>
-        <ul>
-          <li>2020 Kunsthaus Steffisburg, Cantonale Berne Jura, CH</li>
-          <li>2017 Kunsthaus Langenthal, Fifteen, Diploma exhibition, CH</li>
-          <li>
-            2016 Musée jurassien des Arts, Moutier, Cantonale Berne Jura, CH
-          </li>
-          <li>
-            2014 Centro cultural El Faro. Pinturas (solo exhibition), Buenos
-            Aires, AR
-          </li>
-          <li>
-            2013 VII Salon of Contemporary Art of San Isidro, Buenos Aires, AR
-          </li>
-        </ul>
-      </p>
+      <ul>
+        <li>2020 Kunsthaus Steffisburg, Cantonale Berne Jura, CH</li>
+        <li>2017 Kunsthaus Langenthal, Fifteen, Diploma exhibition, CH</li>
+        <li>
+          2016 Musée jurassien des Arts, Moutier, Cantonale Berne Jura, CH
+        </li>
+        <li>
+          2014 Centro cultural El Faro. Pinturas (solo exhibition), Buenos
+          Aires, AR
+        </li>
+        <li>
+          2013 VII Salon of Contemporary Art of San Isidro, Buenos Aires, AR
+        </li>
+      </ul>
       <h2>Prizes</h2>
       <ul>
         <li>
