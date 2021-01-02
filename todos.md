@@ -22,6 +22,8 @@
 
 # Xaver likes to do
 
+- translate contact form
+
 # maybe-someday
 
 - create possibility to add custom painting series
