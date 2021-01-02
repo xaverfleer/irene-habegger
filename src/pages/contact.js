@@ -123,7 +123,7 @@ const page = () => {
           />
           <ContactFormEntry
             props={{
-              label: 'Telefon oder E-Mail',
+              label: 'Phone or email',
               name: 'contact',
               type: 'text',
               required: true,
@@ -131,7 +131,7 @@ const page = () => {
           />
           <ContactFormEntry
             props={{
-              label: 'Nachricht',
+              label: 'Message',
               name: 'message',
               type: 'textarea',
               required: true,
