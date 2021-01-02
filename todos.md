@@ -1,15 +1,14 @@
 # prepare phone call
 
-- ✅ check links are consistent (trailing slash)
-- ✅ hide pandas
-- ✅ add descriptions
-- ✅ update sitemap
+- ✅ add NetlifyCMS
+- ✅ forward emails to ireneha@hotmail.com
+- ✅ remove panda video
 - ✅ SEO
   - ✅ update description
-- ✅ SEO
+  - ✅ add descriptions
+  - ✅ update sitemap
   - ✅ add to Google, Bing and DuckDuckGo
-- ✅ how to forward emails to hotmail
-- ✅ remove panda video
+- ✅ translate form language
 
 # irene requests
 
@@ -22,7 +21,7 @@
 
 # Xaver likes to do
 
-- translate contact form
+- add robots.txt
 
 # maybe-someday
 
