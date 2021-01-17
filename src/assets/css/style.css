@@ -150,7 +150,7 @@ ul {
 }
 
 .img-container__img--bio {
-  max-width: 45vh;
+  max-width: 90vw;
 }
 
 .img-container__title {
@@ -217,6 +217,10 @@ ul {
 
   .aside {
     flex: 1 1 100px;
+  }
+
+  .img-container__img--bio {
+    max-width: 30vw;
   }
 
   .imgs--index {
