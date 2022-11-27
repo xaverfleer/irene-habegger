@@ -4,6 +4,8 @@ import galleryPreview from './preview-templates/galleryPreview'
 import bioPreview from './preview-templates/bioPreview'
 
 CMS.registerPreviewTemplate('index', IndexPreview)
+CMS.registerPreviewTemplate('italian landscapes', galleryPreview)
+CMS.registerPreviewTemplate('little windows', galleryPreview)
 CMS.registerPreviewTemplate('wall', galleryPreview)
 CMS.registerPreviewTemplate('portraits', galleryPreview)
 CMS.registerPreviewTemplate('hedge', galleryPreview)
