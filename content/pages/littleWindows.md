@@ -23,7 +23,7 @@ paintings:
     technique: oil on canvas board
     dimensions: 15 x 15 cm each
     year: '2021'
-  - img: '../../static/img/11-eggs-and-a-tomatoe.png'
+  - img: '../../static/img/11-eggs-and-tomatoe.png'
     title: 11 Eggs and a Tomatoe
     technique: oil on canvas board
     dimensions: 10 x 10 cm each
