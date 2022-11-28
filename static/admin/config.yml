@@ -37,6 +37,56 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
+      - label: Italian Landscapes
+        name: italianLandscapes
+        file: content/pages/italian-landscapes.md
+        fields:
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: wall
+          - label: HTML title
+            name: htmlTitle
+            widget: hidden
+            default: Irene Habegger | Wall
+          - label: HTML description
+            name: htmlDescription
+            widget: hidden
+            default: Wall series (2017)
+          - label: Paintings
+            name: paintings
+            widget: list
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }
+      - label: Little Windows
+        name: littleWindows
+        file: content/pages/little-windows.md
+        fields:
+          - label: Template key
+            name: templateKey
+            widget: hidden
+            default: wall
+          - label: HTML title
+            name: htmlTitle
+            widget: hidden
+            default: Irene Habegger | Wall
+          - label: HTML description
+            name: htmlDescription
+            widget: hidden
+            default: Wall series (2017)
+          - label: Paintings
+            name: paintings
+            widget: list
+            fields:
+              - { label: Image, name: img, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Technique, name: technique, widget: string }
+              - { label: Dimensions, name: dimensions, widget: string }
+              - { label: Year, name: year, widget: string }
       - label: Wall
         name: wall
         file: content/pages/wall.md
