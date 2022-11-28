@@ -39,7 +39,7 @@ collections:
               - { label: Year, name: year, widget: string }
       - label: Italian Landscapes
         name: italianLandscapes
-        file: content/pages/italian-landscapes.md
+        file: content/pages/italianLandscapes.md
         fields:
           - label: Template key
             name: templateKey
@@ -64,7 +64,7 @@ collections:
               - { label: Year, name: year, widget: string }
       - label: Little Windows
         name: littleWindows
-        file: content/pages/little-windows.md
+        file: content/pages/littleWindows.md
         fields:
           - label: Template key
             name: templateKey
