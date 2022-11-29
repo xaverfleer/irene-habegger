@@ -18,4 +18,9 @@ paintings:
     technique: oil on canvas
     dimensions: 150 x 200 cm
     year: "2016"
+  - img: ../../static/img/hedge-04.jpg
+    title: Crust
+    technique: oil on canvas
+    year: "2016"
+    dimensions: 100 x 60 cm
 ---
