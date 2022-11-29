@@ -5,11 +5,11 @@ htmlDescription: My biography (little) depth.
 paintings: null
 img: ../../static/img/yo_.jpg
 ---
-## Bio
+### Bio
 
 Irene Habegger is an Argentinean artist who was born in Buenos Aires in 1989. There she started to study drawing and painting at the painting school of Guillermo Roux. In 2014 she moved to Switzerland, where she obtained a degree in Fine Arts from the University of the Arts Bern. She completed her studies in Italy, where she did a master's degree in painting at the Accademia di Belle Arti di Brera in Milan. She currently lives between Italy and Switzerland.
 
-## Exhibitions
+### Exhibitions
 
 * 2022 Associazione Circuiti Dinamici, *Il Disegno,* group exhibition, Milan, IT
 * 2021 Musée jurassien des Arts, *Cantonale Berne Jura*, group exhibition, Moutier, CH
@@ -22,7 +22,7 @@ Irene Habegger is an Argentinean artist who was born in Buenos Aires in 1989. Th
 * 2012 Salón de los Pasos Perdidos de la Facultad de Derecho, LIV *Salón Anual de Manchas de la Ciudad de Buenos Aires,* Buenos Aires, AR
 * 2012 Dirección de Juventud de San Isidro,  *Ciclo Difusión 2012,* group exhibition, Buenos Aires, AR
 
-## Prizes
+### Prizes
 
 * 2014 Second prize 33 th Ward School Plein Air Painting competition, Buenos Aires, AR
 * 2012 First prize Plein Air Painting competition *Pasaje de la Piedad,* Buenos Aires, AR
