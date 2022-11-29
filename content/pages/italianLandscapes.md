@@ -28,9 +28,4 @@ paintings:
     technique: oil on canvas board
     dimensions: 30 x 24 cm
     year: "2022"
-  - img: ../../static/img/canal.jpg
-    title: The Presentiment of a Fish
-    technique: oil on canvas
-    dimensions: Ø 30 cm
-    year: "2022"
 ---
