@@ -3,7 +3,7 @@ templateKey: italianLandscapes
 htmlTitle: Irene Habegger | Italian Landscapes
 htmlDescription: Italian Landscapes (date unknown)
 paintings:
-  - img: ../../static/img/_mg_9093.jpg
+  - img: ../../static/img/amrande.jpg
     title: On the Edge of the City
     technique: oil on canvas
     dimensions: 40 x 40 cm
