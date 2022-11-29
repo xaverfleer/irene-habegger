@@ -23,11 +23,6 @@ paintings:
     technique: oil on canvas board
     dimensions: 15 x 15 cm each
     year: "2021"
-  - img: ../../static/img/11-eggs-and-tomatoe.png
-    title: 11 Eggs and a Tomatoe
-    technique: oil on canvas board
-    dimensions: 10 x 10 cm each
-    year: "2021"
   - img: ../../static/img/tutti_i_tonni_il_tonno.0.jpg
     title: Tutti i Tonni il Tonno (All Tuna the Tuna)
     technique: oil on canvas board
