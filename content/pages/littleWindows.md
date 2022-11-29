@@ -23,7 +23,7 @@ paintings:
     technique: oil on canvas board
     dimensions: 15 x 15 cm each
     year: "2021"
-  - img: ../../static/img/uova_3.0.jpg
+  - img: ../../static/img/11-eggs-and-tomatoe.png
     title: 11 Eggs and a Tomatoe
     technique: oil on canvas board
     dimensions: 10 x 10 cm each
@@ -43,7 +43,7 @@ paintings:
     technique: oil on canvas board
     dimensions: 15 x 10 cm
     year: "2020"
-  - img: ../../static/img/plato.jpg
+  - img: ../../static/img/a-tale-of-two-cities.png
     title: “After such imaginary discourse, the passenger in his fancy would dig,
       and dig, dig— now with a spade, now with a great key, now with his
       hands—to dig this wretched creature out. Got out at last, with earth
