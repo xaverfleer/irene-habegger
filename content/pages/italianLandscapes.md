@@ -8,7 +8,7 @@ paintings:
     technique: oil on canvas
     dimensions: 40 x 40 cm
     year: "2022"
-  - img: ../../static/img/hidden-landscape.png
+  - img: ../../static/img/paisajeescondido.jpg
     title: Hidden Landscape
     technique: oil on canvas
     dimensions: 45 x 35 cm
