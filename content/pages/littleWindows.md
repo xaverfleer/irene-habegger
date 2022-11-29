@@ -8,42 +8,42 @@ paintings:
     technique: oil on canvas board
     dimensions: 20 x 20 cm
     year: "2022"
-  - img: ../../static/img/eiger-moench-jungfrau-plato.png
+  - img: ../../static/img/plato.jpg
     title: Eiger, Mönch, Jungfrau and Plato
     technique: oil on canvas board
     dimensions: 20 x 20 cm
     year: "2022"
-  - img: ../../static/img/gruesse-aus-der-schweiz.png
+  - img: ../../static/img/saludos.jpg
     title: Grüsse aus der Schweiz (Greetings from Switzerland)
     technique: oil on canvas board
     dimensions: 5 x 5 cm each
     year: "2021"
-  - img: ../../static/img/rubber-ball.png
+  - img: ../../static/img/pallina_3.jpg
     title: Rubber ball
     technique: oil on canvas board
     dimensions: 15 x 15 cm each
     year: "2021"
-  - img: ../../static/img/11-eggs-and-tomatoe.png
+  - img: ../../static/img/uova_3.0.jpg
     title: 11 Eggs and a Tomatoe
     technique: oil on canvas board
     dimensions: 10 x 10 cm each
     year: "2021"
-  - img: ../../static/img/tutti-i-tonni-il-tonno.png
+  - img: ../../static/img/tutti_i_tonni_il_tonno.0.jpg
     title: Tutti i Tonni il Tonno (All Tuna the Tuna)
     technique: oil on canvas board
     dimensions: 15 x 15 cm each
     year: "2021"
-  - img: ../../static/img/gedichte.png
+  - img: ../../static/img/gedichte1.jpg
     title: Gedichte (Poetry)
     technique: oil on canvas board
     dimensions: 20 x 20 cm
     year: "2020"
-  - img: ../../static/img/fish.png
+  - img: ../../static/img/pesce.jpg
     title: Fish
     technique: oil on canvas board
     dimensions: 15 x 10 cm
     year: "2020"
-  - img: ../../static/img/a-tale-of-two-cities.png
+  - img: ../../static/img/plato.jpg
     title: “After such imaginary discourse, the passenger in his fancy would dig,
       and dig, dig— now with a spade, now with a great key, now with his
       hands—to dig this wretched creature out. Got out at last, with earth
