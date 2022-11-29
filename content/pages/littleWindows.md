@@ -8,7 +8,7 @@ paintings:
     technique: oil on canvas board
     dimensions: 20 x 20 cm
     year: "2022"
-  - img: ../../static/img/plato.jpg
+  - img: ../../static/img/eiger.jpg
     title: Eiger, Mönch, Jungfrau and Plato
     technique: oil on canvas board
     dimensions: 20 x 20 cm
