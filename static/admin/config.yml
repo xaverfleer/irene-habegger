@@ -37,7 +37,7 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
-      - label: Draw It
+      - label: Drawings
         name: drawings
         file: content/pages/drawings.md
         fields:
