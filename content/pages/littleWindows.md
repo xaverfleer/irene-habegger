@@ -33,16 +33,6 @@ paintings:
     technique: oil on canvas board
     dimensions: 5 x 5 cm each
     year: "2021"
-  - img: ../../static/img/a-tale-of-two-cities.png
-    title: “After such imaginary discourse, the passenger in his fancy would dig,
-      and dig, dig— now with a spade, now with a great key, now with his
-      hands—to dig this wretched creature out. Got out at last, with earth
-      hanging about his face and hair, he would suddenly fan away to dust. The
-      passenger would then start to himself, and lower the window, to get the
-      reality of mist and rain on his cheek.” (A Tale of Two Cities)
-    technique: oil on canvas board
-    dimensions: 23 x 23 cm
-    year: "2021"
   - img: ../../static/img/pallina_3.jpg
     title: Rubber ball
     technique: oil on canvas board
