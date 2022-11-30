@@ -130,7 +130,7 @@ ul {
 }
 
 .img-container {
-  margin: 10em 0;
+  margin: 0rem 0 10rem;
   text-align: right;
   font-size: 1.23607rem;
   color: #777;
@@ -225,6 +225,7 @@ ul {
 
   .imgs--index > .img-container {
     margin-right: 1em;
+    margin-top: 11rem;
   }
 
   .imgs--index > .img-container:last-child {
@@ -235,5 +236,11 @@ ul {
     grid-template-columns: 1fr 4fr;
     align-items: start;
     margin: 2%;
+  }
+}
+
+@media (min-width: 1054px) {
+  .imgs--index > .img-container {
+    margin-top: 6.6rem;
   }
 }
