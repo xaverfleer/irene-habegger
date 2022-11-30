@@ -48,4 +48,14 @@ paintings:
     technique: oil on canvas board
     dimensions: 23 x 23 cm
     year: "2021"
+  - img: ../../static/img/gedichte1.jpg
+    title: Gedichte (Poetry)
+    technique: oil on canvas board
+    dimensions: 20 x 20 cm
+    year: "2020"
+  - img: ../../static/img/tutti_i_tonni_il_tonno.0.jpg
+    title: Tutti i Tonni il Tonno (All Tuna the Tuna)
+    technique: oil on canvas board
+    dimensions: 15 x 15 cm each
+    year: "2021"
 ---
