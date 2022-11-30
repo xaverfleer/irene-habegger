@@ -63,4 +63,9 @@ paintings:
     technique: oil on canvas board
     dimensions: 15 x 10 cm
     year: "2020"
+  - img: ../../static/img/saludos.jpg
+    title: Grüsse aus der Schweiz (Greetings from Switzerland)
+    technique: oil on canvas board
+    dimensions: 5 x 5 cm each
+    year: "2021"
 ---
