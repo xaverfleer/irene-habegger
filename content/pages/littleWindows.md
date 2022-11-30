@@ -58,4 +58,9 @@ paintings:
     technique: oil on canvas board
     dimensions: 15 x 15 cm each
     year: "2021"
+  - img: ../../static/img/pesce.jpg
+    title: Fish
+    technique: oil on canvas board
+    dimensions: 15 x 10 cm
+    year: "2020"
 ---
