@@ -33,9 +33,4 @@ paintings:
     technique: oil on canvas
     dimensions: 35 x 45 cm
     year: "2022"
-  - img: ../../static/img/image-1-.jpeg
-    title: Memory of a Journey (by painting)
-    technique: oil on canvas
-    dimensions: 24 x 30 cm
-    year: "2022"
 ---
