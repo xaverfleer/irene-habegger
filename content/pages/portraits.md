@@ -38,9 +38,4 @@ paintings:
     technique: oil on canvas
     dimensions: 40 x 30 cm
     year: "2017"
-  - img: ../../static/img/habegger_irene_da_bafa_2017_11.tif
-    title: Exhibition view
-    technique: oil on canvas
-    dimensions: 30 x 30 cm each
-    year: "2017"
 ---
