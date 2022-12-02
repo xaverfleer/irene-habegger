@@ -3,7 +3,7 @@ templateKey: bio
 htmlTitle: Irene Habegger | Bio
 htmlDescription: My biography (little) depth.
 paintings: null
-img: ../../static/img/img_0375-another-copy-.jpg
+img: ../../static/img/yo_.jpg
 ---
 ### Bio
 
