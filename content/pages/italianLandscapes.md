@@ -28,4 +28,9 @@ paintings:
     technique: oil on canvas board
     dimensions: 30 x 24 cm
     year: "2022"
+  - img: ../../static/img/image.jpeg
+    title: Channel in summer
+    technique: by painting
+    dimensions: 35 x 45 cm
+    year: "2022"
 ---
