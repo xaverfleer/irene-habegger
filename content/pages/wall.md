@@ -18,7 +18,7 @@ paintings:
     technique: acrylic, oil and coal on canvas
     dimensions: 155 x 100 cm
     year: "2017"
-  - img: ../../static/img/habegger_irene_da_bafa_2017_5-copy-.jpg
+  - img: ../../static/img/habegger_irene_da_bafa_2017_5-another-copy-.jpg
     title: Wall 4
     technique: acryl, oil and coal on canvas
     dimensions: "155 x 100 cm "
