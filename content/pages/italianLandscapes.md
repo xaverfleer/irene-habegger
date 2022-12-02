@@ -33,4 +33,9 @@ paintings:
     technique: by painting
     dimensions: 35 x 45 cm
     year: "2022"
+  - img: ../../static/img/image-1-.jpeg
+    title: Memory of a Journey,
+    technique: by painting
+    dimensions: 24 x 30 cm
+    year: "2022"
 ---
