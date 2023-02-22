@@ -16,7 +16,7 @@ Irene Habegger is an Argentinean artist who was born in Buenos Aires in 1989. Th
 * 2020 Kunsthaus Steffisburg, *Cantonale Berne Jura*, group exhibition, Steffisburg, CH
 * 2017 Kunsthaus Langenthal, *Fifteen*, Diploma exhibition, Langenthal, CH
 * 2016 Musée jurassien des Arts, *Cantonale Berne Jura*, group exhibition, Moutier, CH
-* 2﻿015 *Interferenzen*, group exhibition, HKB, Bern, CH
+* 2﻿015 HKB, *Interferenzen*, group exhibition, Bern, CH
 * 2014 Centro cultural y social El Faro, *Pinturas,* solo exhibition, Buenos Aires, AR
 * 2﻿014 Museo Rómulo Raggio, ARTVILO Painting Exhibition, *30 Años 1984-2014,* group exhibition, Buenos Aires, AR
 * 2013 Club Atlético Boca Juniors, *La Bombonera,* group exhibition, Buenos Aires, AR
