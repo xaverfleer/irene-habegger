@@ -27,15 +27,15 @@ paintings:
     title: Floyd
     technique: oil on canvas
     dimensions: 34 x 34 cm
-    year: "2017"
+    year: "2018"
   - img: ../../static/img/portrait-09-Marco-II.jpg
     title: Marco II
     technique: oil on canvas
     dimensions: 30 x 24 cm
-    year: "2017"
+    year: "2018"
   - img: ../../static/img/portrait-10-Xaver.jpg
     title: Xaver
     technique: oil on canvas
     dimensions: 40 x 30 cm
-    year: "2017"
+    year: "2018"
 ---
