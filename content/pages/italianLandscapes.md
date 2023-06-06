@@ -19,7 +19,7 @@ paintings:
     dimensions: 50 x 40 cm
     year: "2022"
   - img: ../../static/img/suburbio2.jpg
-    title: Memory of a Journey
+    title: Between two trains
     technique: oil on canvas board
     dimensions: 24 x 30 cm
     year: "2022"
