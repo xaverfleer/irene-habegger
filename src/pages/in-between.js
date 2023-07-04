@@ -6,7 +6,7 @@ export default Gallery
 
 export const pageQuery = graphql`
   {
-    markdownRemark(frontmatter: { templateKey: { eq: "italianLandscapes" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "inBetween" } }) {
       frontmatter {
         htmlDescription
         htmlTitle

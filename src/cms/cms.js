@@ -5,7 +5,7 @@ import bioPreview from './preview-templates/bioPreview'
 
 CMS.registerPreviewTemplate('index', IndexPreview)
 CMS.registerPreviewTemplate('drawings', galleryPreview)
-CMS.registerPreviewTemplate('italian landscapes', galleryPreview)
+CMS.registerPreviewTemplate('in between', galleryPreview)
 CMS.registerPreviewTemplate('little windows', galleryPreview)
 CMS.registerPreviewTemplate('wall', galleryPreview)
 CMS.registerPreviewTemplate('portraits', galleryPreview)

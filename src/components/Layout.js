@@ -20,9 +20,7 @@ const Layout = ({ children }) => (
       <nav className="nav">
         <ul className="nav__list">
           <LinkEntry props={{ to: '/drawings', label: 'Drawings' }} />
-          <LinkEntry
-            props={{ to: '/italian-landscapes', label: 'Italian Landscapes' }}
-          />
+          <LinkEntry props={{ to: '/in-between', label: 'In Between' }} />
           <LinkEntry
             props={{ to: '/little-windows', label: 'Little Windows' }}
           />

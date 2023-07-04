@@ -62,9 +62,9 @@ collections:
               - { label: Technique, name: technique, widget: string }
               - { label: Dimensions, name: dimensions, widget: string }
               - { label: Year, name: year, widget: string }
-      - label: Italian Landscapes
-        name: italianLandscapes
-        file: content/pages/italianLandscapes.md
+      - label: In Between
+        name: inBetween
+        file: content/pages/inBetween.md
         fields:
           - label: Template key
             name: templateKey
