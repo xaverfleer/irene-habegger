@@ -11,6 +11,12 @@ Irene Habegger is an Argentinean artist who was born in Buenos Aires in 1989. Th
 
 ### Exhibitions
 
+
+
+
+
+* 2023 Associazione Circuiti Dinamici, *In Ascolto,* exhibition together with Alex Sala, Milan, IT
+* 2023 Kunsthaus Steffisburg, *Cantonale Berne Jura*, group exhibition, Steffisburg, CH
 * 2022 Associazione Circuiti Dinamici, *Il Disegno,* group exhibition, Milan, IT
 * 2021 Musée jurassien des Arts, *Cantonale Berne Jura*, group exhibition, Moutier, CH
 * 2020 Kunsthaus Steffisburg, *Cantonale Berne Jura*, group exhibition, Steffisburg, CH
